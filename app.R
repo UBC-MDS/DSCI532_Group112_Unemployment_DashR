@@ -192,7 +192,7 @@ content1 <- htmlDiv(list(
     statRidioButton,
     #end selection components
     htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
-    dccMarkdown("[Data Source](https://cran.r-project.org/web/packages/gapminder/README.html)")
+    dccMarkdown("[Data Source](https://observablehq.com/@randomfractals/vega-datasets)")
   ))
 
 content2 <- htmlDiv(list(
@@ -206,7 +206,7 @@ content2 <- htmlDiv(list(
   industryDropdown,
   #end selection components
   htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
-  dccMarkdown("[Data Source](https://cran.r-project.org/web/packages/gapminder/README.html)")
+  dccMarkdown("[Data Source](https://observablehq.com/@randomfractals/vega-datasets)")
 ))
 
 
@@ -223,7 +223,7 @@ content3 <- htmlDiv(list(
   yearSlider,
   #end selection components
   htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
-  dccMarkdown("[Data Source](https://cran.r-project.org/web/packages/gapminder/README.html)")
+  dccMarkdown("[Data Source](https://observablehq.com/@randomfractals/vega-datasets)")
 ))
 app$layout(htmlDiv(list(
     htmlH1('Gapminder Dash Demo (No interactivity yet!)'),

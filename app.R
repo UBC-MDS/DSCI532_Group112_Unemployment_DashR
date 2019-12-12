@@ -250,33 +250,24 @@ content3 <- htmlDiv(style = list('display' = 'flex'), list(
 colors <- list(
   background = '#111111',
   text = '#7FDBFF',
-  lightyellow= '#fff98f'
+  lightblue= '#71adc9'
 )
 
 pageTitle <- htmlDiv(list(
-  htmlH1(
-  'Exploring Unemployment Across Industries',
+  htmlH1('Exploring Unemployment Across Industries'),
+  htmlH5('These graphs display a framework for countries to examine their unemployment rates/counts across industries.')),
   style = list(
     textAlign = 'center',
-    color = '#00008b',
+    color = '#0f1314',
     'font-family'= 'Optima',
     'font-style'= 'bold',
     "margin-left"= "5px",
     "margin-top"= "5px",
     "margin-bottom"="5px",
     'font-size'='40px',
-    padding =  15,
-    backgroundColor = colors$lightyellow
-  )), 
-  htmlH5(
-  'These graphs display a framework for countries to examine their unemployment rates/counts across industries.',
-  style = list(
-    textAlign = 'center',
-    color = '#00008b',
-    'font-family'= 'Courier',
-    backgroundColor = colors$lightyellow
-  )
-)))
+    padding =  25,
+    backgroundColor = colors$lightblue
+  ))
 
 
 markdown_text <- "
@@ -364,5 +355,4 @@ app$callback(
   })
 
 
-app$run_server()
-
+app$run_server(host = "0.0.0.0", port = Sys.getenv('PORT', 8050))

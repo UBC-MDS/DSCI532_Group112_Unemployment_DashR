@@ -9,8 +9,8 @@ library(plotly)
 app <- Dash$new(external_stylesheets = "https://codepen.io/chriddyp/pen/bWLwgP.css")
 
 # Load the data
-unemply_df_year <- read_csv("data/unemply_df_year.csv")
-unemply_df_month <- read_csv("data/unemply_df_month.csv")
+unemply_df_year <- read_csv("https://raw.githubusercontent.com/UBC-MDS/DSCI532_Group112_Unemployment_DashR/master/data/unemply_df_year.csv")
+unemply_df_month <- read_csv("https://raw.githubusercontent.com/UBC-MDS/DSCI532_Group112_Unemployment_DashR/master/data/unemply_df_month.csv")
 
 # Some wrangling
 df <- unemply_df_year %>%
@@ -96,7 +96,7 @@ make_plot_1 <- function(year_range = c(2003, 2005), stat = "rate"){
       theme_bw() + 
       theme(legend.position = "none") 
   }
-  gp <- ggplotly(p, width = 800, height = 500) %>%
+  gp <- ggplotly(p, width = 800, height = 500, tooltip = FALSE) %>%
     config(displayModeBar = FALSE)
   return(gp)
 }
@@ -187,13 +187,14 @@ content1 <- htmlDiv(list(
     htmlIframe(height=5, width=10, style=list(borderWidth = 0)), #space
     graph1,
     #selection components go here
-    htmlLabel('Select a year range:'),
-    yearRangeSlider,
-    htmlIframe(height=15, width=10, style=list(borderWidth = 0)), #space
-    htmlLabel('Select a statistic:'),
+    dccMarkdown('**Select a statistic:**'),
     statRadioButton,
-    #end selection components
     htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
+    dccMarkdown('**Select a year range:**'),
+    yearRangeSlider,
+    htmlIframe(height=25, width=10, style=list(borderWidth = 0)), #space
+    #end selection components
+    htmlIframe(height=30, width=10, style=list(borderWidth = 0)), #space
     dccMarkdown("[Data Source](https://observablehq.com/@randomfractals/vega-datasets)")
   ))
 
@@ -202,9 +203,10 @@ content2 <- htmlDiv(list(
   graph2,
   #selection components
   htmlIframe(height=15, width=10, style=list(borderWidth = 0)), #space
-  htmlLabel('Select a statistic:'),
+  dccMarkdown('**Select a statistic:**'),
   statRadioButton,
-  htmlLabel('Select industries:'),
+  htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
+  dccMarkdown('**Select industries:**'),
   industryDropdown,
   #end selection components
   htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
@@ -216,11 +218,13 @@ content3 <- htmlDiv(list(
   graph3,
   htmlIframe(height=15, width=10, style=list(borderWidth = 0)),
   #selection components go here
-  htmlLabel('Select a statistic:'),
+  dccMarkdown('**Select a statistic:**'),
   statRadioButton,
-  htmlLabel('Select industries:'),
+  htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
+  dccMarkdown('**Select industries:**'),
   industryDropdown,
-  htmlLabel('Select a year:'),
+  htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
+  dccMarkdown('**Select a year:**'),
   yearSlider,
   #end selection components
   htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
@@ -229,31 +233,61 @@ content3 <- htmlDiv(list(
 
 # Title features
 
-pageTitle <- htmlH1(
+colors <- list(
+  background = '#111111',
+  text = '#7FDBFF',
+  lightyellow= '#fff98f'
+)
+
+pageTitle <- htmlDiv(list(
+  htmlH1(
   'Exploring Unemployment Across Industries',
   style = list(
     textAlign = 'center',
-    color = '#00008b'
-  )
-)
-
-pageSubTitle <- htmlH5(
+    color = '#00008b',
+    'font-family'= 'Optima',
+    'font-style'= 'bold',
+    "margin-left"= "5px",
+    "margin-top"= "5px",
+    "margin-bottom"="5px",
+    'font-size'='40px',
+    padding =  15,
+    backgroundColor = colors$lightyellow
+  )), 
+  htmlH5(
   'These graphs display a framework for countries to examine their unemployment rates/counts across industries.',
   style = list(
     textAlign = 'center',
-    color = '#00008b'
+    color = '#00008b',
+    'font-family'= 'Courier',
+    backgroundColor = colors$lightyellow
   )
-)
+)))
+
 
 markdown_text <- "
-Text explaining more about the graph
-"
+Unemployment rates is defined as the number of civilian labor force divided by the number of unemployed, but are actively seeking work.
+This can help inform us on multiple factors for a country or an industry including the rise and fall of a country's economic condition, as well as the trends on the job market.
+
+There are 3 main questions we are interested in exploring:
+
+**Tab 1** ***Which industry has grown/shrunk the most?***
+
+**Tab 2** ***How does overall unemployment change in country X over the years?***
+
+**Tab 3** ***Is the unemployment rate across industries seasonal?***
+
+ Understanding unemployment trends could help us address economic challenges and determine which industries are facing job losses or gains.
+ Explore these graphs yourselves!
+ "
 
 app$layout(htmlDiv(list(
     htmlH1(pageTitle),
-    htmlDiv(children = pageSubTitle),
-    dccMarkdown(children=markdown_text),
-    dccTabs(id="tabs", value='tab-1', children=list(
+    htmlIframe(height=10, width=10, style=list(borderWidth = 0)), #space
+    dccMarkdown(children=markdown_text, style= list('font-family'='Geneva')),
+    htmlIframe(height=15, width=10, style=list(borderWidth = 0)), #space
+    dccTabs(id="tabs", value='tab-1', style= list('font-family'= 'Optima', 'font-style'= 'bold','font-weight' = 900),
+    children=list(
     dccTab(label='Job Growth Across Industries', value='tab-1'),
     dccTab(label='Unemployment Throughout The Years', value='tab-2'),
     dccTab(label='Seasonal Unemployment', value='tab-3')

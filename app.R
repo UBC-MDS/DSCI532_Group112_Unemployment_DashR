@@ -40,6 +40,8 @@ yearSlider <- dccSlider(
   min = 2000,
   max = 2009,
   value = 2000
+
+
 )
 
 #Dropdown to select industries interested 
@@ -236,38 +238,29 @@ content3 <- htmlDiv(list(
 colors <- list(
   background = '#111111',
   text = '#7FDBFF',
-  lightyellow= '#fff98f'
+  lightblue= '#71adc9'
 )
 
 pageTitle <- htmlDiv(list(
-  htmlH1(
-  'Exploring Unemployment Across Industries',
+  htmlH1('Exploring Unemployment Across Industries'),
+  htmlH5('These graphs display a framework for countries to examine their unemployment rates/counts across industries.')),
   style = list(
     textAlign = 'center',
-    color = '#00008b',
+    color = '#0f1314',
     'font-family'= 'Optima',
     'font-style'= 'bold',
     "margin-left"= "5px",
     "margin-top"= "5px",
     "margin-bottom"="5px",
     'font-size'='40px',
-    padding =  15,
-    backgroundColor = colors$lightyellow
-  )), 
-  htmlH5(
-  'These graphs display a framework for countries to examine their unemployment rates/counts across industries.',
-  style = list(
-    textAlign = 'center',
-    color = '#00008b',
-    'font-family'= 'Courier',
-    backgroundColor = colors$lightyellow
-  )
-)))
-
+    padding =  25,
+    backgroundColor = colors$lightblue
+  ))
 
 markdown_text <- "
 Unemployment rates is defined as the number of civilian labor force divided by the number of unemployed, but are actively seeking work.
 This can help inform us on multiple factors for a country or an industry including the rise and fall of a country's economic condition, as well as the trends on the job market.
+
 
 There are 3 main questions we are interested in exploring:
 

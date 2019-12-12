@@ -36,12 +36,10 @@ yearRangeSlider <- dccRangeSlider(
 # Select the single year for plot 3
 yearSlider <- dccSlider(
   id = 'year',
-  marks = yearMarks,
+  marks = yearMarks[-11],
   min = 2000,
   max = 2009,
   value = 2000
-
-
 )
 
 #Dropdown to select industries interested 
@@ -185,10 +183,14 @@ graph3 <- dccGraph(
 
 #Contents for each tab
 
-content1 <- htmlDiv(list(
-    htmlIframe(height=5, width=10, style=list(borderWidth = 0)), #space
-    graph1,
+content1 <- htmlDiv(style = list('display' = 'flex'), list(
+  htmlDiv(style = list('columnCount' = 1, 'padding' = '25px', "width" = '60%'), list(
+    htmlIframe(height=1, width=10, style=list(borderWidth = 0)), #space
+    graph1
+  )),
+  htmlDiv(style = list('columnCount' = 1, 'padding' = '10px', 'width' = '30%'), list(
     #selection components go here
+    htmlIframe(height=60, width=10, style=list(borderWidth = 0)), #space
     dccMarkdown('**Select a statistic:**'),
     statRadioButton,
     htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
@@ -199,38 +201,48 @@ content1 <- htmlDiv(list(
     htmlIframe(height=30, width=10, style=list(borderWidth = 0)), #space
     dccMarkdown("[Data Source](https://observablehq.com/@randomfractals/vega-datasets)")
   ))
+))
+  
 
-content2 <- htmlDiv(list(
-  htmlIframe(height=5, width=10, style=list(borderWidth = 0)), #space
-  graph2,
-  #selection components
-  htmlIframe(height=15, width=10, style=list(borderWidth = 0)), #space
-  dccMarkdown('**Select a statistic:**'),
-  statRadioButton,
-  htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
-  dccMarkdown('**Select industries:**'),
-  industryDropdown,
-  #end selection components
-  htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
-  dccMarkdown("[Data Source](https://observablehq.com/@randomfractals/vega-datasets)")
+content2 <- htmlDiv(style = list('display' = 'flex'), list(
+  htmlDiv(style = list('columnCount' = 1, 'padding' = '25px', "width" = '60%'), list(
+    htmlIframe(height=5, width=10, style=list(borderWidth = 0)), #space
+    graph2
+  )),
+  htmlDiv(style = list('columnCount' = 1, 'padding' = '10px', 'width' = '30%'), list(
+    #selection components
+    htmlIframe(height=60, width=10, style=list(borderWidth = 0)), #space
+    dccMarkdown('**Select a statistic:**'),
+    statRadioButton,
+    htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
+    dccMarkdown('**Select industries:**'),
+    industryDropdown,
+    #end selection components
+    htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
+    dccMarkdown("[Data Source](https://observablehq.com/@randomfractals/vega-datasets)")
+  ))
 ))
 
-content3 <- htmlDiv(list(
-  htmlIframe(height=5, width=10, style=list(borderWidth = 0)), #space
-  graph3,
-  htmlIframe(height=15, width=10, style=list(borderWidth = 0)),
-  #selection components go here
-  dccMarkdown('**Select a statistic:**'),
-  statRadioButton,
-  htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
-  dccMarkdown('**Select industries:**'),
-  industryDropdown,
-  htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
-  dccMarkdown('**Select a year:**'),
-  yearSlider,
-  #end selection components
-  htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
-  dccMarkdown("[Data Source](https://observablehq.com/@randomfractals/vega-datasets)")
+content3 <- htmlDiv(style = list('display' = 'flex'), list(
+  htmlDiv(style = list('columnCount' = 1, 'padding' = '25px', "width" = '60%'), list( 
+    htmlIframe(height=5, width=10, style=list(borderWidth = 0)), #space
+    graph3
+  )),
+  htmlDiv(style = list('columnCount' = 1, 'padding' = '10px', 'width' = '30%'), list(
+    htmlIframe(height=60, width=10, style=list(borderWidth = 0)),
+    #selection components go here
+    dccMarkdown('**Select a statistic:**'),
+    statRadioButton,
+    htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
+    dccMarkdown('**Select industries:**'),
+    industryDropdown,
+    htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
+    dccMarkdown('**Select a year:**'),
+    yearSlider,
+    #end selection components
+    htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
+    dccMarkdown("[Data Source](https://observablehq.com/@randomfractals/vega-datasets)")
+  ))
 ))
 
 # Title features
@@ -257,10 +269,10 @@ pageTitle <- htmlDiv(list(
     backgroundColor = colors$lightblue
   ))
 
+
 markdown_text <- "
 Unemployment rates is defined as the number of civilian labor force divided by the number of unemployed, but are actively seeking work.
 This can help inform us on multiple factors for a country or an industry including the rise and fall of a country's economic condition, as well as the trends on the job market.
-
 
 There are 3 main questions we are interested in exploring:
 
@@ -344,4 +356,3 @@ app$callback(
 
 
 app$run_server(host = "0.0.0.0", port = Sys.getenv('PORT', 8050))
-

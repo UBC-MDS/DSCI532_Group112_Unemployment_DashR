@@ -1,0 +1,1709 @@
+,industry,year,month,count,rate
+0,Government,2000,1,430,0.021
+1,Government,2000,2,409,0.02
+2,Government,2000,3,311,0.015
+3,Government,2000,4,269,0.013000000000000001
+4,Government,2000,5,370,0.019
+5,Government,2000,6,603,0.031
+6,Government,2000,7,545,0.028999999999999998
+7,Government,2000,8,583,0.031
+8,Government,2000,9,408,0.021
+9,Government,2000,10,391,0.02
+10,Government,2000,11,384,0.019
+11,Government,2000,12,365,0.018000000000000002
+12,Government,2001,1,463,0.023
+13,Government,2001,2,298,0.015
+14,Government,2001,3,355,0.018000000000000002
+15,Government,2001,4,369,0.019
+16,Government,2001,5,361,0.018000000000000002
+17,Government,2001,6,525,0.027000000000000003
+18,Government,2001,7,548,0.027999999999999997
+19,Government,2001,8,540,0.027999999999999997
+20,Government,2001,9,438,0.022000000000000002
+21,Government,2001,10,429,0.022000000000000002
+22,Government,2001,11,420,0.021
+23,Government,2001,12,419,0.021
+24,Government,2002,1,486,0.024
+25,Government,2002,2,508,0.025
+26,Government,2002,3,477,0.024
+27,Government,2002,4,447,0.022000000000000002
+28,Government,2002,5,484,0.023
+29,Government,2002,6,561,0.027999999999999997
+30,Government,2002,7,645,0.032
+31,Government,2002,8,596,0.03
+32,Government,2002,9,530,0.026000000000000002
+33,Government,2002,10,499,0.025
+34,Government,2002,11,468,0.023
+35,Government,2002,12,446,0.022000000000000002
+36,Government,2003,1,571,0.027999999999999997
+37,Government,2003,2,483,0.024
+38,Government,2003,3,526,0.026000000000000002
+39,Government,2003,4,440,0.022000000000000002
+40,Government,2003,5,478,0.024
+41,Government,2003,6,704,0.035
+42,Government,2003,7,749,0.038
+43,Government,2003,8,745,0.037000000000000005
+44,Government,2003,9,556,0.027000000000000003
+45,Government,2003,10,500,0.024
+46,Government,2003,11,542,0.027000000000000003
+47,Government,2003,12,516,0.025
+48,Government,2004,1,511,0.025
+49,Government,2004,2,490,0.024
+50,Government,2004,3,530,0.026000000000000002
+51,Government,2004,4,433,0.021
+52,Government,2004,5,468,0.023
+53,Government,2004,6,580,0.027999999999999997
+54,Government,2004,7,741,0.037000000000000005
+55,Government,2004,8,676,0.033
+56,Government,2004,9,568,0.027000000000000003
+57,Government,2004,10,561,0.027000000000000003
+58,Government,2004,11,514,0.024
+59,Government,2004,12,499,0.024
+60,Government,2005,1,555,0.026000000000000002
+61,Government,2005,2,472,0.023
+62,Government,2005,3,468,0.022000000000000002
+63,Government,2005,4,478,0.023
+64,Government,2005,5,453,0.021
+65,Government,2005,6,681,0.032
+66,Government,2005,7,683,0.033
+67,Government,2005,8,664,0.032
+68,Government,2005,9,568,0.027000000000000003
+69,Government,2005,10,502,0.024
+70,Government,2005,11,494,0.024
+71,Government,2005,12,393,0.019
+72,Government,2006,1,457,0.022000000000000002
+73,Government,2006,2,472,0.023
+74,Government,2006,3,461,0.022000000000000002
+75,Government,2006,4,414,0.02
+76,Government,2006,5,429,0.021
+77,Government,2006,6,578,0.027999999999999997
+78,Government,2006,7,659,0.032
+79,Government,2006,8,595,0.028999999999999998
+80,Government,2006,9,396,0.019
+81,Government,2006,10,424,0.02
+82,Government,2006,11,400,0.019
+83,Government,2006,12,395,0.019
+84,Government,2007,1,476,0.022000000000000002
+85,Government,2007,2,405,0.019
+86,Government,2007,3,419,0.019
+87,Government,2007,4,408,0.019
+88,Government,2007,5,428,0.019
+89,Government,2007,6,572,0.027000000000000003
+90,Government,2007,7,704,0.033
+91,Government,2007,8,695,0.032
+92,Government,2007,9,525,0.024
+93,Government,2007,10,492,0.023
+94,Government,2007,11,482,0.022000000000000002
+95,Government,2007,12,451,0.021
+96,Government,2008,1,471,0.022000000000000002
+97,Government,2008,2,372,0.017
+98,Government,2008,3,425,0.019
+99,Government,2008,4,373,0.017
+100,Government,2008,5,461,0.021
+101,Government,2008,6,654,0.03
+102,Government,2008,7,770,0.036000000000000004
+103,Government,2008,8,721,0.033
+104,Government,2008,9,573,0.026000000000000002
+105,Government,2008,10,552,0.025
+106,Government,2008,11,527,0.024
+107,Government,2008,12,511,0.023
+108,Government,2009,1,652,0.03
+109,Government,2009,2,563,0.026000000000000002
+110,Government,2009,3,598,0.027999999999999997
+111,Government,2009,4,575,0.026000000000000002
+112,Government,2009,5,702,0.031
+113,Government,2009,6,991,0.044000000000000004
+114,Government,2009,7,1129,0.051
+115,Government,2009,8,1118,0.051
+116,Government,2009,9,928,0.042
+117,Government,2009,10,785,0.035
+118,Government,2009,11,748,0.034
+119,Government,2009,12,797,0.036000000000000004
+120,Government,2010,1,948,0.043
+121,Government,2010,2,880,0.04
+122,Mining and Extraction,2000,1,19,0.039
+123,Mining and Extraction,2000,2,25,0.055
+124,Mining and Extraction,2000,3,17,0.037000000000000005
+125,Mining and Extraction,2000,4,20,0.040999999999999995
+126,Mining and Extraction,2000,5,27,0.053
+127,Mining and Extraction,2000,6,13,0.026000000000000002
+128,Mining and Extraction,2000,7,16,0.036000000000000004
+129,Mining and Extraction,2000,8,23,0.051
+130,Mining and Extraction,2000,9,25,0.057999999999999996
+131,Mining and Extraction,2000,10,39,0.078
+132,Mining and Extraction,2000,11,11,0.02
+133,Mining and Extraction,2000,12,20,0.038
+134,Mining and Extraction,2001,1,11,0.023
+135,Mining and Extraction,2001,2,27,0.053
+136,Mining and Extraction,2001,3,14,0.03
+137,Mining and Extraction,2001,4,24,0.047
+138,Mining and Extraction,2001,5,34,0.059000000000000004
+139,Mining and Extraction,2001,6,26,0.047
+140,Mining and Extraction,2001,7,17,0.031
+141,Mining and Extraction,2001,8,18,0.033
+142,Mining and Extraction,2001,9,23,0.042
+143,Mining and Extraction,2001,10,32,0.054000000000000006
+144,Mining and Extraction,2001,11,20,0.036000000000000004
+145,Mining and Extraction,2001,12,27,0.053
+146,Mining and Extraction,2002,1,33,0.07
+147,Mining and Extraction,2002,2,35,0.075
+148,Mining and Extraction,2002,3,28,0.053
+149,Mining and Extraction,2002,4,33,0.061
+150,Mining and Extraction,2002,5,25,0.049
+151,Mining and Extraction,2002,6,35,0.071
+152,Mining and Extraction,2002,7,19,0.039
+153,Mining and Extraction,2002,8,32,0.063
+154,Mining and Extraction,2002,9,42,0.079
+155,Mining and Extraction,2002,10,36,0.064
+156,Mining and Extraction,2002,11,32,0.054000000000000006
+157,Mining and Extraction,2002,12,45,0.078
+158,Mining and Extraction,2003,1,54,0.09
+159,Mining and Extraction,2003,2,41,0.071
+160,Mining and Extraction,2003,3,46,0.08199999999999999
+161,Mining and Extraction,2003,4,41,0.077
+162,Mining and Extraction,2003,5,40,0.075
+163,Mining and Extraction,2003,6,36,0.068
+164,Mining and Extraction,2003,7,43,0.079
+165,Mining and Extraction,2003,8,20,0.038
+166,Mining and Extraction,2003,9,25,0.046
+167,Mining and Extraction,2003,10,31,0.055999999999999994
+168,Mining and Extraction,2003,11,34,0.059000000000000004
+169,Mining and Extraction,2003,12,32,0.055999999999999994
+170,Mining and Extraction,2004,1,31,0.057999999999999996
+171,Mining and Extraction,2004,2,24,0.05
+172,Mining and Extraction,2004,3,22,0.044000000000000004
+173,Mining and Extraction,2004,4,34,0.064
+174,Mining and Extraction,2004,5,22,0.043
+175,Mining and Extraction,2004,6,27,0.05
+176,Mining and Extraction,2004,7,28,0.054000000000000006
+177,Mining and Extraction,2004,8,10,0.019
+178,Mining and Extraction,2004,9,8,0.015
+179,Mining and Extraction,2004,10,15,0.026000000000000002
+180,Mining and Extraction,2004,11,20,0.033
+181,Mining and Extraction,2004,12,16,0.025
+182,Mining and Extraction,2005,1,29,0.049
+183,Mining and Extraction,2005,2,25,0.04
+184,Mining and Extraction,2005,3,32,0.052000000000000005
+185,Mining and Extraction,2005,4,19,0.028999999999999998
+186,Mining and Extraction,2005,5,16,0.024
+187,Mining and Extraction,2005,6,25,0.04
+188,Mining and Extraction,2005,7,22,0.037000000000000005
+189,Mining and Extraction,2005,8,12,0.02
+190,Mining and Extraction,2005,9,12,0.02
+191,Mining and Extraction,2005,10,2,0.0030000000000000005
+192,Mining and Extraction,2005,11,18,0.028999999999999998
+193,Mining and Extraction,2005,12,23,0.035
+194,Mining and Extraction,2006,1,26,0.039
+195,Mining and Extraction,2006,2,25,0.038
+196,Mining and Extraction,2006,3,14,0.021
+197,Mining and Extraction,2006,4,17,0.025
+198,Mining and Extraction,2006,5,20,0.027999999999999997
+199,Mining and Extraction,2006,6,31,0.043
+200,Mining and Extraction,2006,7,25,0.035
+201,Mining and Extraction,2006,8,32,0.043
+202,Mining and Extraction,2006,9,14,0.021
+203,Mining and Extraction,2006,10,15,0.022000000000000002
+204,Mining and Extraction,2006,11,22,0.028999999999999998
+205,Mining and Extraction,2006,12,25,0.034
+206,Mining and Extraction,2007,1,35,0.047
+207,Mining and Extraction,2007,2,33,0.045
+208,Mining and Extraction,2007,3,24,0.032
+209,Mining and Extraction,2007,4,17,0.023
+210,Mining and Extraction,2007,5,22,0.03
+211,Mining and Extraction,2007,6,33,0.043
+212,Mining and Extraction,2007,7,33,0.043
+213,Mining and Extraction,2007,8,33,0.046
+214,Mining and Extraction,2007,9,25,0.032
+215,Mining and Extraction,2007,10,9,0.013000000000000001
+216,Mining and Extraction,2007,11,16,0.023
+217,Mining and Extraction,2007,12,24,0.034
+218,Mining and Extraction,2008,1,28,0.04
+219,Mining and Extraction,2008,2,16,0.022000000000000002
+220,Mining and Extraction,2008,3,28,0.037000000000000005
+221,Mining and Extraction,2008,4,28,0.036000000000000004
+222,Mining and Extraction,2008,5,28,0.034
+223,Mining and Extraction,2008,6,28,0.033
+224,Mining and Extraction,2008,7,13,0.015
+225,Mining and Extraction,2008,8,17,0.019
+226,Mining and Extraction,2008,9,25,0.027999999999999997
+227,Mining and Extraction,2008,10,15,0.017
+228,Mining and Extraction,2008,11,32,0.037000000000000005
+229,Mining and Extraction,2008,12,46,0.052000000000000005
+230,Mining and Extraction,2009,1,59,0.07
+231,Mining and Extraction,2009,2,63,0.076
+232,Mining and Extraction,2009,3,105,0.126
+233,Mining and Extraction,2009,4,125,0.161
+234,Mining and Extraction,2009,5,98,0.133
+235,Mining and Extraction,2009,6,100,0.136
+236,Mining and Extraction,2009,7,95,0.126
+237,Mining and Extraction,2009,8,93,0.11800000000000001
+238,Mining and Extraction,2009,9,76,0.107
+239,Mining and Extraction,2009,10,84,0.10800000000000001
+240,Mining and Extraction,2009,11,96,0.12
+241,Mining and Extraction,2009,12,89,0.11800000000000001
+242,Mining and Extraction,2010,1,68,0.091
+243,Mining and Extraction,2010,2,79,0.107
+244,Construction,2000,1,745,0.09699999999999999
+245,Construction,2000,2,812,0.106
+246,Construction,2000,3,669,0.087
+247,Construction,2000,4,447,0.057999999999999996
+248,Construction,2000,5,397,0.05
+249,Construction,2000,6,389,0.046
+250,Construction,2000,7,384,0.044000000000000004
+251,Construction,2000,8,446,0.051
+252,Construction,2000,9,386,0.046
+253,Construction,2000,10,417,0.049
+254,Construction,2000,11,482,0.057
+255,Construction,2000,12,580,0.068
+256,Construction,2001,1,836,0.098
+257,Construction,2001,2,826,0.099
+258,Construction,2001,3,683,0.084
+259,Construction,2001,4,596,0.071
+260,Construction,2001,5,478,0.055999999999999994
+261,Construction,2001,6,443,0.051
+262,Construction,2001,7,447,0.049
+263,Construction,2001,8,522,0.057999999999999996
+264,Construction,2001,9,489,0.055
+265,Construction,2001,10,535,0.061
+266,Construction,2001,11,670,0.076
+267,Construction,2001,12,785,0.09
+268,Construction,2002,1,1211,0.136
+269,Construction,2002,2,1060,0.122
+270,Construction,2002,3,1009,0.11800000000000001
+271,Construction,2002,4,855,0.10099999999999999
+272,Construction,2002,5,626,0.07400000000000001
+273,Construction,2002,6,593,0.069
+274,Construction,2002,7,594,0.069
+275,Construction,2002,8,654,0.07400000000000001
+276,Construction,2002,9,615,0.07
+277,Construction,2002,10,680,0.077
+278,Construction,2002,11,758,0.085
+279,Construction,2002,12,941,0.109
+280,Construction,2003,1,1196,0.14
+281,Construction,2003,2,1173,0.14
+282,Construction,2003,3,987,0.11800000000000001
+283,Construction,2003,4,772,0.09300000000000001
+284,Construction,2003,5,715,0.084
+285,Construction,2003,6,710,0.079
+286,Construction,2003,7,677,0.075
+287,Construction,2003,8,650,0.071
+288,Construction,2003,9,681,0.076
+289,Construction,2003,10,651,0.07400000000000001
+290,Construction,2003,11,690,0.078
+291,Construction,2003,12,813,0.09300000000000001
+292,Construction,2004,1,994,0.113
+293,Construction,2004,2,1039,0.11599999999999999
+294,Construction,2004,3,1011,0.113
+295,Construction,2004,4,849,0.095
+296,Construction,2004,5,665,0.07400000000000001
+297,Construction,2004,6,668,0.07
+298,Construction,2004,7,610,0.064
+299,Construction,2004,8,563,0.06
+300,Construction,2004,9,629,0.068
+301,Construction,2004,10,635,0.069
+302,Construction,2004,11,695,0.07400000000000001
+303,Construction,2004,12,870,0.095
+304,Construction,2005,1,1079,0.11800000000000001
+305,Construction,2005,2,1150,0.12300000000000001
+306,Construction,2005,3,961,0.10300000000000001
+307,Construction,2005,4,693,0.07400000000000001
+308,Construction,2005,5,567,0.061
+309,Construction,2005,6,559,0.057
+310,Construction,2005,7,509,0.052000000000000005
+311,Construction,2005,8,561,0.057
+312,Construction,2005,9,572,0.057
+313,Construction,2005,10,519,0.053
+314,Construction,2005,11,564,0.057
+315,Construction,2005,12,813,0.08199999999999999
+316,Construction,2006,1,868,0.09
+317,Construction,2006,2,836,0.086
+318,Construction,2006,3,820,0.085
+319,Construction,2006,4,674,0.069
+320,Construction,2006,5,647,0.066
+321,Construction,2006,6,569,0.055999999999999994
+322,Construction,2006,7,633,0.061
+323,Construction,2006,8,618,0.059000000000000004
+324,Construction,2006,9,586,0.055999999999999994
+325,Construction,2006,10,456,0.045
+326,Construction,2006,11,618,0.06
+327,Construction,2006,12,725,0.069
+328,Construction,2007,1,922,0.08900000000000001
+329,Construction,2007,2,1086,0.105
+330,Construction,2007,3,924,0.09
+331,Construction,2007,4,853,0.086
+332,Construction,2007,5,676,0.069
+333,Construction,2007,6,600,0.059000000000000004
+334,Construction,2007,7,617,0.059000000000000004
+335,Construction,2007,8,558,0.053
+336,Construction,2007,9,596,0.057999999999999996
+337,Construction,2007,10,641,0.061
+338,Construction,2007,11,645,0.062
+339,Construction,2007,12,968,0.094
+340,Construction,2008,1,1099,0.11
+341,Construction,2008,2,1118,0.114
+342,Construction,2008,3,1170,0.12
+343,Construction,2008,4,1057,0.111
+344,Construction,2008,5,809,0.086
+345,Construction,2008,6,785,0.08199999999999999
+346,Construction,2008,7,783,0.08
+347,Construction,2008,8,814,0.08199999999999999
+348,Construction,2008,9,970,0.099
+349,Construction,2008,10,1078,0.10800000000000001
+350,Construction,2008,11,1237,0.127
+351,Construction,2008,12,1438,0.153
+352,Construction,2009,1,1744,0.182
+353,Construction,2009,2,2025,0.214
+354,Construction,2009,3,1979,0.21100000000000002
+355,Construction,2009,4,1737,0.187
+356,Construction,2009,5,1768,0.192
+357,Construction,2009,6,1601,0.174
+358,Construction,2009,7,1687,0.182
+359,Construction,2009,8,1542,0.165
+360,Construction,2009,9,1594,0.171
+361,Construction,2009,10,1744,0.187
+362,Construction,2009,11,1780,0.19399999999999998
+363,Construction,2009,12,2044,0.22699999999999998
+364,Construction,2010,1,2194,0.247
+365,Construction,2010,2,2440,0.271
+366,Manufacturing,2000,1,734,0.036000000000000004
+367,Manufacturing,2000,2,694,0.034
+368,Manufacturing,2000,3,739,0.036000000000000004
+369,Manufacturing,2000,4,736,0.037000000000000005
+370,Manufacturing,2000,5,685,0.034
+371,Manufacturing,2000,6,621,0.031
+372,Manufacturing,2000,7,708,0.036000000000000004
+373,Manufacturing,2000,8,685,0.034
+374,Manufacturing,2000,9,667,0.034
+375,Manufacturing,2000,10,693,0.036000000000000004
+376,Manufacturing,2000,11,672,0.034
+377,Manufacturing,2000,12,653,0.033
+378,Manufacturing,2001,1,911,0.046
+379,Manufacturing,2001,2,902,0.046
+380,Manufacturing,2001,3,954,0.049
+381,Manufacturing,2001,4,855,0.044000000000000004
+382,Manufacturing,2001,5,903,0.047
+383,Manufacturing,2001,6,956,0.05
+384,Manufacturing,2001,7,1054,0.055999999999999994
+385,Manufacturing,2001,8,1023,0.055
+386,Manufacturing,2001,9,996,0.054000000000000006
+387,Manufacturing,2001,10,1065,0.057999999999999996
+388,Manufacturing,2001,11,1108,0.06
+389,Manufacturing,2001,12,1172,0.063
+390,Manufacturing,2002,1,1377,0.07400000000000001
+391,Manufacturing,2002,2,1296,0.07
+392,Manufacturing,2002,3,1367,0.073
+393,Manufacturing,2002,4,1322,0.07200000000000001
+394,Manufacturing,2002,5,1194,0.066
+395,Manufacturing,2002,6,1187,0.066
+396,Manufacturing,2002,7,1185,0.066
+397,Manufacturing,2002,8,1108,0.062
+398,Manufacturing,2002,9,1076,0.061
+399,Manufacturing,2002,10,1046,0.059000000000000004
+400,Manufacturing,2002,11,1115,0.063
+401,Manufacturing,2002,12,1188,0.066
+402,Manufacturing,2003,1,1302,0.07200000000000001
+403,Manufacturing,2003,2,1229,0.067
+404,Manufacturing,2003,3,1222,0.068
+405,Manufacturing,2003,4,1199,0.067
+406,Manufacturing,2003,5,1150,0.065
+407,Manufacturing,2003,6,1232,0.07
+408,Manufacturing,2003,7,1193,0.069
+409,Manufacturing,2003,8,1186,0.067
+410,Manufacturing,2003,9,1175,0.068
+411,Manufacturing,2003,10,1041,0.06
+412,Manufacturing,2003,11,1034,0.059000000000000004
+413,Manufacturing,2003,12,1025,0.059000000000000004
+414,Manufacturing,2004,1,1110,0.064
+415,Manufacturing,2004,2,1094,0.063
+416,Manufacturing,2004,3,1083,0.063
+417,Manufacturing,2004,4,1004,0.057999999999999996
+418,Manufacturing,2004,5,966,0.055999999999999994
+419,Manufacturing,2004,6,957,0.055999999999999994
+420,Manufacturing,2004,7,1019,0.06
+421,Manufacturing,2004,8,840,0.049
+422,Manufacturing,2004,9,852,0.05
+423,Manufacturing,2004,10,884,0.053
+424,Manufacturing,2004,11,905,0.054000000000000006
+425,Manufacturing,2004,12,872,0.051
+426,Manufacturing,2005,1,889,0.053
+427,Manufacturing,2005,2,889,0.053
+428,Manufacturing,2005,3,879,0.053
+429,Manufacturing,2005,4,793,0.048
+430,Manufacturing,2005,5,743,0.045
+431,Manufacturing,2005,6,743,0.044000000000000004
+432,Manufacturing,2005,7,883,0.053
+433,Manufacturing,2005,8,767,0.047
+434,Manufacturing,2005,9,775,0.047
+435,Manufacturing,2005,10,800,0.048
+436,Manufacturing,2005,11,823,0.049
+437,Manufacturing,2005,12,757,0.045
+438,Manufacturing,2006,1,778,0.046
+439,Manufacturing,2006,2,821,0.049
+440,Manufacturing,2006,3,701,0.040999999999999995
+441,Manufacturing,2006,4,745,0.045
+442,Manufacturing,2006,5,680,0.040999999999999995
+443,Manufacturing,2006,6,635,0.038
+444,Manufacturing,2006,7,736,0.044000000000000004
+445,Manufacturing,2006,8,680,0.040999999999999995
+446,Manufacturing,2006,9,632,0.038
+447,Manufacturing,2006,10,618,0.037000000000000005
+448,Manufacturing,2006,11,702,0.043
+449,Manufacturing,2006,12,660,0.04
+450,Manufacturing,2007,1,752,0.046
+451,Manufacturing,2007,2,774,0.047
+452,Manufacturing,2007,3,742,0.045
+453,Manufacturing,2007,4,749,0.046
+454,Manufacturing,2007,5,651,0.039
+455,Manufacturing,2007,6,653,0.04
+456,Manufacturing,2007,7,621,0.037000000000000005
+457,Manufacturing,2007,8,596,0.036000000000000004
+458,Manufacturing,2007,9,673,0.040999999999999995
+459,Manufacturing,2007,10,729,0.043
+460,Manufacturing,2007,11,762,0.045
+461,Manufacturing,2007,12,772,0.046
+462,Manufacturing,2008,1,837,0.051
+463,Manufacturing,2008,2,820,0.05
+464,Manufacturing,2008,3,831,0.05
+465,Manufacturing,2008,4,796,0.048
+466,Manufacturing,2008,5,879,0.053
+467,Manufacturing,2008,6,862,0.052000000000000005
+468,Manufacturing,2008,7,908,0.055
+469,Manufacturing,2008,8,960,0.057
+470,Manufacturing,2008,9,984,0.06
+471,Manufacturing,2008,10,1007,0.062
+472,Manufacturing,2008,11,1144,0.07
+473,Manufacturing,2008,12,1315,0.083
+474,Manufacturing,2009,1,1711,0.109
+475,Manufacturing,2009,2,1822,0.115
+476,Manufacturing,2009,3,1912,0.122
+477,Manufacturing,2009,4,1968,0.124
+478,Manufacturing,2009,5,2010,0.126
+479,Manufacturing,2009,6,2010,0.126
+480,Manufacturing,2009,7,1988,0.124
+481,Manufacturing,2009,8,1866,0.11800000000000001
+482,Manufacturing,2009,9,1876,0.11900000000000001
+483,Manufacturing,2009,10,1884,0.122
+484,Manufacturing,2009,11,1882,0.125
+485,Manufacturing,2009,12,1747,0.11900000000000001
+486,Manufacturing,2010,1,1918,0.13
+487,Manufacturing,2010,2,1814,0.121
+488,Wholesale and Retail Trade,2000,1,1000,0.05
+489,Wholesale and Retail Trade,2000,2,1023,0.052000000000000005
+490,Wholesale and Retail Trade,2000,3,983,0.051
+491,Wholesale and Retail Trade,2000,4,793,0.040999999999999995
+492,Wholesale and Retail Trade,2000,5,821,0.043
+493,Wholesale and Retail Trade,2000,6,837,0.044000000000000004
+494,Wholesale and Retail Trade,2000,7,792,0.040999999999999995
+495,Wholesale and Retail Trade,2000,8,853,0.043
+496,Wholesale and Retail Trade,2000,9,791,0.040999999999999995
+497,Wholesale and Retail Trade,2000,10,739,0.037000000000000005
+498,Wholesale and Retail Trade,2000,11,701,0.036000000000000004
+499,Wholesale and Retail Trade,2000,12,715,0.037000000000000005
+500,Wholesale and Retail Trade,2001,1,908,0.047
+501,Wholesale and Retail Trade,2001,2,990,0.052000000000000005
+502,Wholesale and Retail Trade,2001,3,1037,0.054000000000000006
+503,Wholesale and Retail Trade,2001,4,820,0.043
+504,Wholesale and Retail Trade,2001,5,875,0.045
+505,Wholesale and Retail Trade,2001,6,955,0.049
+506,Wholesale and Retail Trade,2001,7,833,0.043
+507,Wholesale and Retail Trade,2001,8,928,0.048
+508,Wholesale and Retail Trade,2001,9,936,0.048
+509,Wholesale and Retail Trade,2001,10,941,0.048
+510,Wholesale and Retail Trade,2001,11,1046,0.053
+511,Wholesale and Retail Trade,2001,12,1074,0.054000000000000006
+512,Wholesale and Retail Trade,2002,1,1212,0.063
+513,Wholesale and Retail Trade,2002,2,1264,0.066
+514,Wholesale and Retail Trade,2002,3,1269,0.066
+515,Wholesale and Retail Trade,2002,4,1222,0.064
+516,Wholesale and Retail Trade,2002,5,1138,0.057999999999999996
+517,Wholesale and Retail Trade,2002,6,1240,0.062
+518,Wholesale and Retail Trade,2002,7,1132,0.055999999999999994
+519,Wholesale and Retail Trade,2002,8,1170,0.057999999999999996
+520,Wholesale and Retail Trade,2002,9,1171,0.059000000000000004
+521,Wholesale and Retail Trade,2002,10,1212,0.061
+522,Wholesale and Retail Trade,2002,11,1242,0.062
+523,Wholesale and Retail Trade,2002,12,1150,0.057
+524,Wholesale and Retail Trade,2003,1,1342,0.067
+525,Wholesale and Retail Trade,2003,2,1238,0.061
+526,Wholesale and Retail Trade,2003,3,1179,0.059000000000000004
+527,Wholesale and Retail Trade,2003,4,1201,0.06
+528,Wholesale and Retail Trade,2003,5,1247,0.062
+529,Wholesale and Retail Trade,2003,6,1434,0.069
+530,Wholesale and Retail Trade,2003,7,1387,0.066
+531,Wholesale and Retail Trade,2003,8,1161,0.055999999999999994
+532,Wholesale and Retail Trade,2003,9,1229,0.059000000000000004
+533,Wholesale and Retail Trade,2003,10,1189,0.057
+534,Wholesale and Retail Trade,2003,11,1156,0.054000000000000006
+535,Wholesale and Retail Trade,2003,12,1081,0.05
+536,Wholesale and Retail Trade,2004,1,1389,0.065
+537,Wholesale and Retail Trade,2004,2,1369,0.065
+538,Wholesale and Retail Trade,2004,3,1386,0.068
+539,Wholesale and Retail Trade,2004,4,1248,0.061
+540,Wholesale and Retail Trade,2004,5,1183,0.057999999999999996
+541,Wholesale and Retail Trade,2004,6,1182,0.057999999999999996
+542,Wholesale and Retail Trade,2004,7,1163,0.055
+543,Wholesale and Retail Trade,2004,8,1079,0.051
+544,Wholesale and Retail Trade,2004,9,1127,0.055
+545,Wholesale and Retail Trade,2004,10,1138,0.054000000000000006
+546,Wholesale and Retail Trade,2004,11,1045,0.05
+547,Wholesale and Retail Trade,2004,12,1058,0.05
+548,Wholesale and Retail Trade,2005,1,1302,0.063
+549,Wholesale and Retail Trade,2005,2,1301,0.062
+550,Wholesale and Retail Trade,2005,3,1173,0.055999999999999994
+551,Wholesale and Retail Trade,2005,4,1131,0.054000000000000006
+552,Wholesale and Retail Trade,2005,5,1145,0.054000000000000006
+553,Wholesale and Retail Trade,2005,6,1197,0.057
+554,Wholesale and Retail Trade,2005,7,1194,0.055999999999999994
+555,Wholesale and Retail Trade,2005,8,1130,0.053
+556,Wholesale and Retail Trade,2005,9,1038,0.049
+557,Wholesale and Retail Trade,2005,10,1050,0.049
+558,Wholesale and Retail Trade,2005,11,1013,0.047
+559,Wholesale and Retail Trade,2005,12,968,0.045
+560,Wholesale and Retail Trade,2006,1,1203,0.057
+561,Wholesale and Retail Trade,2006,2,1141,0.054000000000000006
+562,Wholesale and Retail Trade,2006,3,1022,0.049
+563,Wholesale and Retail Trade,2006,4,972,0.046
+564,Wholesale and Retail Trade,2006,5,1025,0.048
+565,Wholesale and Retail Trade,2006,6,1085,0.051
+566,Wholesale and Retail Trade,2006,7,1083,0.051
+567,Wholesale and Retail Trade,2006,8,977,0.047
+568,Wholesale and Retail Trade,2006,9,1008,0.049
+569,Wholesale and Retail Trade,2006,10,972,0.047
+570,Wholesale and Retail Trade,2006,11,1018,0.048
+571,Wholesale and Retail Trade,2006,12,965,0.045
+572,Wholesale and Retail Trade,2007,1,1166,0.055
+573,Wholesale and Retail Trade,2007,2,1045,0.051
+574,Wholesale and Retail Trade,2007,3,896,0.044000000000000004
+575,Wholesale and Retail Trade,2007,4,872,0.042
+576,Wholesale and Retail Trade,2007,5,795,0.039
+577,Wholesale and Retail Trade,2007,6,979,0.046
+578,Wholesale and Retail Trade,2007,7,1089,0.052000000000000005
+579,Wholesale and Retail Trade,2007,8,1028,0.051
+580,Wholesale and Retail Trade,2007,9,1027,0.051
+581,Wholesale and Retail Trade,2007,10,907,0.044000000000000004
+582,Wholesale and Retail Trade,2007,11,893,0.043
+583,Wholesale and Retail Trade,2007,12,1009,0.048
+584,Wholesale and Retail Trade,2008,1,1120,0.054000000000000006
+585,Wholesale and Retail Trade,2008,2,1007,0.049
+586,Wholesale and Retail Trade,2008,3,992,0.049
+587,Wholesale and Retail Trade,2008,4,919,0.045
+588,Wholesale and Retail Trade,2008,5,1049,0.052000000000000005
+589,Wholesale and Retail Trade,2008,6,1160,0.057
+590,Wholesale and Retail Trade,2008,7,1329,0.065
+591,Wholesale and Retail Trade,2008,8,1366,0.066
+592,Wholesale and Retail Trade,2008,9,1277,0.062
+593,Wholesale and Retail Trade,2008,10,1313,0.063
+594,Wholesale and Retail Trade,2008,11,1397,0.067
+595,Wholesale and Retail Trade,2008,12,1535,0.07200000000000001
+596,Wholesale and Retail Trade,2009,1,1794,0.087
+597,Wholesale and Retail Trade,2009,2,1847,0.08900000000000001
+598,Wholesale and Retail Trade,2009,3,1852,0.09
+599,Wholesale and Retail Trade,2009,4,1833,0.09
+600,Wholesale and Retail Trade,2009,5,1835,0.09
+601,Wholesale and Retail Trade,2009,6,1863,0.091
+602,Wholesale and Retail Trade,2009,7,1854,0.09
+603,Wholesale and Retail Trade,2009,8,1794,0.08800000000000001
+604,Wholesale and Retail Trade,2009,9,1809,0.09
+605,Wholesale and Retail Trade,2009,10,1919,0.096
+606,Wholesale and Retail Trade,2009,11,1879,0.092
+607,Wholesale and Retail Trade,2009,12,1851,0.091
+608,Wholesale and Retail Trade,2010,1,2154,0.105
+609,Wholesale and Retail Trade,2010,2,2071,0.1
+610,Transportation and Utilities,2000,1,236,0.043
+611,Transportation and Utilities,2000,2,223,0.04
+612,Transportation and Utilities,2000,3,192,0.035
+613,Transportation and Utilities,2000,4,191,0.034
+614,Transportation and Utilities,2000,5,190,0.034
+615,Transportation and Utilities,2000,6,183,0.032
+616,Transportation and Utilities,2000,7,228,0.039
+617,Transportation and Utilities,2000,8,198,0.034
+618,Transportation and Utilities,2000,9,231,0.04
+619,Transportation and Utilities,2000,10,153,0.027999999999999997
+620,Transportation and Utilities,2000,11,129,0.023
+621,Transportation and Utilities,2000,12,168,0.031
+622,Transportation and Utilities,2001,1,194,0.036000000000000004
+623,Transportation and Utilities,2001,2,189,0.034
+624,Transportation and Utilities,2001,3,193,0.035
+625,Transportation and Utilities,2001,4,232,0.042
+626,Transportation and Utilities,2001,5,178,0.031
+627,Transportation and Utilities,2001,6,242,0.043
+628,Transportation and Utilities,2001,7,236,0.042
+629,Transportation and Utilities,2001,8,226,0.039
+630,Transportation and Utilities,2001,9,214,0.039
+631,Transportation and Utilities,2001,10,321,0.057999999999999996
+632,Transportation and Utilities,2001,11,302,0.054000000000000006
+633,Transportation and Utilities,2001,12,310,0.055999999999999994
+634,Transportation and Utilities,2002,1,368,0.066
+635,Transportation and Utilities,2002,2,331,0.057
+636,Transportation and Utilities,2002,3,313,0.055999999999999994
+637,Transportation and Utilities,2002,4,280,0.05
+638,Transportation and Utilities,2002,5,257,0.045
+639,Transportation and Utilities,2002,6,274,0.049
+640,Transportation and Utilities,2002,7,270,0.049
+641,Transportation and Utilities,2002,8,221,0.039
+642,Transportation and Utilities,2002,9,235,0.042
+643,Transportation and Utilities,2002,10,262,0.047
+644,Transportation and Utilities,2002,11,233,0.042
+645,Transportation and Utilities,2002,12,243,0.046
+646,Transportation and Utilities,2003,1,331,0.063
+647,Transportation and Utilities,2003,2,316,0.057999999999999996
+648,Transportation and Utilities,2003,3,319,0.059000000000000004
+649,Transportation and Utilities,2003,4,274,0.05
+650,Transportation and Utilities,2003,5,260,0.049
+651,Transportation and Utilities,2003,6,300,0.055
+652,Transportation and Utilities,2003,7,289,0.054000000000000006
+653,Transportation and Utilities,2003,8,255,0.048
+654,Transportation and Utilities,2003,9,255,0.047
+655,Transportation and Utilities,2003,10,260,0.048
+656,Transportation and Utilities,2003,11,275,0.051
+657,Transportation and Utilities,2003,12,267,0.05
+658,Transportation and Utilities,2004,1,243,0.046
+659,Transportation and Utilities,2004,2,291,0.055
+660,Transportation and Utilities,2004,3,284,0.054000000000000006
+661,Transportation and Utilities,2004,4,239,0.045
+662,Transportation and Utilities,2004,5,230,0.044000000000000004
+663,Transportation and Utilities,2004,6,227,0.043
+664,Transportation and Utilities,2004,7,231,0.043
+665,Transportation and Utilities,2004,8,236,0.044000000000000004
+666,Transportation and Utilities,2004,9,208,0.039
+667,Transportation and Utilities,2004,10,219,0.04
+668,Transportation and Utilities,2004,11,217,0.04
+669,Transportation and Utilities,2004,12,204,0.038
+670,Transportation and Utilities,2005,1,276,0.05
+671,Transportation and Utilities,2005,2,245,0.044000000000000004
+672,Transportation and Utilities,2005,3,267,0.048
+673,Transportation and Utilities,2005,4,257,0.047
+674,Transportation and Utilities,2005,5,223,0.040999999999999995
+675,Transportation and Utilities,2005,6,247,0.045
+676,Transportation and Utilities,2005,7,222,0.039
+677,Transportation and Utilities,2005,8,187,0.033
+678,Transportation and Utilities,2005,9,211,0.037000000000000005
+679,Transportation and Utilities,2005,10,251,0.044000000000000004
+680,Transportation and Utilities,2005,11,199,0.035
+681,Transportation and Utilities,2005,12,202,0.036000000000000004
+682,Transportation and Utilities,2006,1,287,0.05
+683,Transportation and Utilities,2006,2,260,0.046
+684,Transportation and Utilities,2006,3,263,0.047
+685,Transportation and Utilities,2006,4,272,0.048
+686,Transportation and Utilities,2006,5,226,0.04
+687,Transportation and Utilities,2006,6,225,0.039
+688,Transportation and Utilities,2006,7,237,0.042
+689,Transportation and Utilities,2006,8,217,0.037000000000000005
+690,Transportation and Utilities,2006,9,183,0.031
+691,Transportation and Utilities,2006,10,206,0.036000000000000004
+692,Transportation and Utilities,2006,11,183,0.031
+693,Transportation and Utilities,2006,12,190,0.032
+694,Transportation and Utilities,2007,1,248,0.042
+695,Transportation and Utilities,2007,2,251,0.042
+696,Transportation and Utilities,2007,3,249,0.043
+697,Transportation and Utilities,2007,4,188,0.033
+698,Transportation and Utilities,2007,5,216,0.038
+699,Transportation and Utilities,2007,6,242,0.040999999999999995
+700,Transportation and Utilities,2007,7,309,0.051
+701,Transportation and Utilities,2007,8,205,0.034
+702,Transportation and Utilities,2007,9,224,0.037000000000000005
+703,Transportation and Utilities,2007,10,218,0.036000000000000004
+704,Transportation and Utilities,2007,11,242,0.039
+705,Transportation and Utilities,2007,12,210,0.034
+706,Transportation and Utilities,2008,1,271,0.044000000000000004
+707,Transportation and Utilities,2008,2,289,0.046
+708,Transportation and Utilities,2008,3,267,0.043
+709,Transportation and Utilities,2008,4,245,0.04
+710,Transportation and Utilities,2008,5,269,0.043
+711,Transportation and Utilities,2008,6,329,0.051
+712,Transportation and Utilities,2008,7,359,0.057
+713,Transportation and Utilities,2008,8,309,0.052000000000000005
+714,Transportation and Utilities,2008,9,337,0.057999999999999996
+715,Transportation and Utilities,2008,10,316,0.057
+716,Transportation and Utilities,2008,11,331,0.057999999999999996
+717,Transportation and Utilities,2008,12,421,0.067
+718,Transportation and Utilities,2009,1,522,0.084
+719,Transportation and Utilities,2009,2,563,0.091
+720,Transportation and Utilities,2009,3,558,0.09
+721,Transportation and Utilities,2009,4,541,0.09
+722,Transportation and Utilities,2009,5,506,0.085
+723,Transportation and Utilities,2009,6,499,0.084
+724,Transportation and Utilities,2009,7,511,0.08800000000000001
+725,Transportation and Utilities,2009,8,547,0.098
+726,Transportation and Utilities,2009,9,538,0.095
+727,Transportation and Utilities,2009,10,480,0.086
+728,Transportation and Utilities,2009,11,493,0.085
+729,Transportation and Utilities,2009,12,539,0.09
+730,Transportation and Utilities,2010,1,657,0.113
+731,Transportation and Utilities,2010,2,591,0.105
+732,Information,2000,1,125,0.034
+733,Information,2000,2,112,0.028999999999999998
+734,Information,2000,3,140,0.036000000000000004
+735,Information,2000,4,95,0.024
+736,Information,2000,5,131,0.035
+737,Information,2000,6,102,0.026000000000000002
+738,Information,2000,7,144,0.036000000000000004
+739,Information,2000,8,143,0.037000000000000005
+740,Information,2000,9,130,0.033
+741,Information,2000,10,96,0.024
+742,Information,2000,11,117,0.03
+743,Information,2000,12,151,0.04
+744,Information,2001,1,161,0.040999999999999995
+745,Information,2001,2,109,0.028999999999999998
+746,Information,2001,3,148,0.038
+747,Information,2001,4,148,0.037000000000000005
+748,Information,2001,5,164,0.042
+749,Information,2001,6,163,0.040999999999999995
+750,Information,2001,7,206,0.052000000000000005
+751,Information,2001,8,210,0.054000000000000006
+752,Information,2001,9,219,0.055999999999999994
+753,Information,2001,10,233,0.06
+754,Information,2001,11,241,0.062
+755,Information,2001,12,275,0.07400000000000001
+756,Information,2002,1,263,0.071
+757,Information,2002,2,279,0.076
+758,Information,2002,3,266,0.07200000000000001
+759,Information,2002,4,257,0.069
+760,Information,2002,5,260,0.07200000000000001
+761,Information,2002,6,255,0.069
+762,Information,2002,7,264,0.071
+763,Information,2002,8,270,0.071
+764,Information,2002,9,231,0.063
+765,Information,2002,10,211,0.06
+766,Information,2002,11,220,0.065
+767,Information,2002,12,255,0.07200000000000001
+768,Information,2003,1,243,0.067
+769,Information,2003,2,321,0.086
+770,Information,2003,3,267,0.07400000000000001
+771,Information,2003,4,268,0.073
+772,Information,2003,5,251,0.069
+773,Information,2003,6,239,0.064
+774,Information,2003,7,224,0.059000000000000004
+775,Information,2003,8,224,0.061
+776,Information,2003,9,248,0.07
+777,Information,2003,10,182,0.054000000000000006
+778,Information,2003,11,257,0.076
+779,Information,2003,12,224,0.065
+780,Information,2004,1,236,0.07
+781,Information,2004,2,194,0.057999999999999996
+782,Information,2004,3,216,0.063
+783,Information,2004,4,168,0.05
+784,Information,2004,5,190,0.057
+785,Information,2004,6,172,0.05
+786,Information,2004,7,174,0.052000000000000005
+787,Information,2004,8,191,0.057
+788,Information,2004,9,178,0.054000000000000006
+789,Information,2004,10,185,0.055999999999999994
+790,Information,2004,11,187,0.055999999999999994
+791,Information,2004,12,173,0.057
+792,Information,2005,1,168,0.054000000000000006
+793,Information,2005,2,204,0.065
+794,Information,2005,3,177,0.06
+795,Information,2005,4,178,0.059000000000000004
+796,Information,2005,5,145,0.047
+797,Information,2005,6,160,0.05
+798,Information,2005,7,142,0.042
+799,Information,2005,8,156,0.046
+800,Information,2005,9,168,0.049
+801,Information,2005,10,162,0.048
+802,Information,2005,11,172,0.051
+803,Information,2005,12,128,0.037000000000000005
+804,Information,2006,1,105,0.033
+805,Information,2006,2,119,0.037000000000000005
+806,Information,2006,3,116,0.035
+807,Information,2006,4,132,0.042
+808,Information,2006,5,158,0.048
+809,Information,2006,6,114,0.034
+810,Information,2006,7,103,0.03
+811,Information,2006,8,132,0.039
+812,Information,2006,9,170,0.049
+813,Information,2006,10,116,0.034
+814,Information,2006,11,137,0.039
+815,Information,2006,12,108,0.028999999999999998
+816,Information,2007,1,143,0.04
+817,Information,2007,2,139,0.04
+818,Information,2007,3,109,0.032
+819,Information,2007,4,77,0.024
+820,Information,2007,5,110,0.033
+821,Information,2007,6,114,0.034
+822,Information,2007,7,112,0.034
+823,Information,2007,8,140,0.040999999999999995
+824,Information,2007,9,124,0.037000000000000005
+825,Information,2007,10,120,0.037000000000000005
+826,Information,2007,11,132,0.04
+827,Information,2007,12,125,0.037000000000000005
+828,Information,2008,1,169,0.051
+829,Information,2008,2,193,0.057999999999999996
+830,Information,2008,3,155,0.048
+831,Information,2008,4,143,0.044000000000000004
+832,Information,2008,5,170,0.05
+833,Information,2008,6,157,0.047
+834,Information,2008,7,141,0.040999999999999995
+835,Information,2008,8,144,0.042
+836,Information,2008,9,166,0.05
+837,Information,2008,10,168,0.05
+838,Information,2008,11,173,0.052000000000000005
+839,Information,2008,12,219,0.069
+840,Information,2009,1,232,0.07400000000000001
+841,Information,2009,2,224,0.071
+842,Information,2009,3,252,0.078
+843,Information,2009,4,320,0.10099999999999999
+844,Information,2009,5,303,0.095
+845,Information,2009,6,347,0.111
+846,Information,2009,7,373,0.115
+847,Information,2009,8,358,0.107
+848,Information,2009,9,362,0.11199999999999999
+849,Information,2009,10,261,0.08199999999999999
+850,Information,2009,11,243,0.076
+851,Information,2009,12,256,0.085
+852,Information,2010,1,313,0.1
+853,Information,2010,2,300,0.1
+854,Finance,2000,1,228,0.027000000000000003
+855,Finance,2000,2,240,0.027999999999999997
+856,Finance,2000,3,226,0.026000000000000002
+857,Finance,2000,4,197,0.023
+858,Finance,2000,5,195,0.022000000000000002
+859,Finance,2000,6,216,0.025
+860,Finance,2000,7,190,0.022000000000000002
+861,Finance,2000,8,213,0.025
+862,Finance,2000,9,187,0.022000000000000002
+863,Finance,2000,10,224,0.026000000000000002
+864,Finance,2000,11,184,0.021
+865,Finance,2000,12,200,0.023
+866,Finance,2001,1,232,0.026000000000000002
+867,Finance,2001,2,235,0.026000000000000002
+868,Finance,2001,3,211,0.024
+869,Finance,2001,4,232,0.026000000000000002
+870,Finance,2001,5,191,0.022000000000000002
+871,Finance,2001,6,249,0.027999999999999997
+872,Finance,2001,7,289,0.033
+873,Finance,2001,8,256,0.028999999999999998
+874,Finance,2001,9,268,0.031
+875,Finance,2001,10,281,0.033
+876,Finance,2001,11,320,0.036000000000000004
+877,Finance,2001,12,258,0.03
+878,Finance,2002,1,267,0.03
+879,Finance,2002,2,318,0.035
+880,Finance,2002,3,287,0.032
+881,Finance,2002,4,292,0.033
+882,Finance,2002,5,340,0.038
+883,Finance,2002,6,373,0.040999999999999995
+884,Finance,2002,7,345,0.038
+885,Finance,2002,8,343,0.038
+886,Finance,2002,9,299,0.033
+887,Finance,2002,10,312,0.035
+888,Finance,2002,11,337,0.037000000000000005
+889,Finance,2002,12,322,0.036000000000000004
+890,Finance,2003,1,327,0.036000000000000004
+891,Finance,2003,2,310,0.034
+892,Finance,2003,3,357,0.04
+893,Finance,2003,4,323,0.036000000000000004
+894,Finance,2003,5,320,0.036000000000000004
+895,Finance,2003,6,358,0.04
+896,Finance,2003,7,284,0.031
+897,Finance,2003,8,342,0.037000000000000005
+898,Finance,2003,9,305,0.033
+899,Finance,2003,10,303,0.033
+900,Finance,2003,11,311,0.033
+901,Finance,2003,12,283,0.03
+902,Finance,2004,1,403,0.043
+903,Finance,2004,2,363,0.038
+904,Finance,2004,3,343,0.037000000000000005
+905,Finance,2004,4,312,0.034
+906,Finance,2004,5,302,0.033
+907,Finance,2004,6,335,0.036000000000000004
+908,Finance,2004,7,307,0.033
+909,Finance,2004,8,312,0.034
+910,Finance,2004,9,374,0.04
+911,Finance,2004,10,358,0.038
+912,Finance,2004,11,290,0.031
+913,Finance,2004,12,290,0.031
+914,Finance,2005,1,252,0.027000000000000003
+915,Finance,2005,2,301,0.032
+916,Finance,2005,3,261,0.027000000000000003
+917,Finance,2005,4,255,0.027000000000000003
+918,Finance,2005,5,288,0.031
+919,Finance,2005,6,307,0.033
+920,Finance,2005,7,309,0.033
+921,Finance,2005,8,300,0.032
+922,Finance,2005,9,260,0.027000000000000003
+923,Finance,2005,10,255,0.027000000000000003
+924,Finance,2005,11,268,0.027999999999999997
+925,Finance,2005,12,204,0.021
+926,Finance,2006,1,233,0.024
+927,Finance,2006,2,268,0.027999999999999997
+928,Finance,2006,3,298,0.031
+929,Finance,2006,4,293,0.031
+930,Finance,2006,5,289,0.03
+931,Finance,2006,6,299,0.031
+932,Finance,2006,7,329,0.034
+933,Finance,2006,8,263,0.027000000000000003
+934,Finance,2006,9,235,0.024
+935,Finance,2006,10,211,0.021
+936,Finance,2006,11,229,0.023
+937,Finance,2006,12,227,0.023
+938,Finance,2007,1,233,0.024
+939,Finance,2007,2,295,0.031
+940,Finance,2007,3,252,0.026000000000000002
+941,Finance,2007,4,231,0.024
+942,Finance,2007,5,281,0.028999999999999998
+943,Finance,2007,6,303,0.031
+944,Finance,2007,7,307,0.031
+945,Finance,2007,8,371,0.037000000000000005
+946,Finance,2007,9,316,0.033
+947,Finance,2007,10,307,0.032
+948,Finance,2007,11,261,0.027000000000000003
+949,Finance,2007,12,315,0.032
+950,Finance,2008,1,285,0.03
+951,Finance,2008,2,323,0.034
+952,Finance,2008,3,323,0.034
+953,Finance,2008,4,324,0.034
+954,Finance,2008,5,361,0.037000000000000005
+955,Finance,2008,6,337,0.034
+956,Finance,2008,7,350,0.036000000000000004
+957,Finance,2008,8,409,0.042
+958,Finance,2008,9,380,0.04
+959,Finance,2008,10,434,0.045
+960,Finance,2008,11,494,0.052000000000000005
+961,Finance,2008,12,540,0.055999999999999994
+962,Finance,2009,1,571,0.06
+963,Finance,2009,2,637,0.067
+964,Finance,2009,3,639,0.068
+965,Finance,2009,4,561,0.06
+966,Finance,2009,5,536,0.057
+967,Finance,2009,6,513,0.055
+968,Finance,2009,7,570,0.061
+969,Finance,2009,8,566,0.06
+970,Finance,2009,9,657,0.071
+971,Finance,2009,10,646,0.07
+972,Finance,2009,11,619,0.067
+973,Finance,2009,12,665,0.07200000000000001
+974,Finance,2010,1,623,0.066
+975,Finance,2010,2,708,0.075
+976,Business services,2000,1,655,0.057
+977,Business services,2000,2,587,0.052000000000000005
+978,Business services,2000,3,623,0.054000000000000006
+979,Business services,2000,4,517,0.045
+980,Business services,2000,5,561,0.047
+981,Business services,2000,6,545,0.044000000000000004
+982,Business services,2000,7,636,0.051
+983,Business services,2000,8,584,0.048
+984,Business services,2000,9,559,0.046
+985,Business services,2000,10,504,0.040999999999999995
+986,Business services,2000,11,547,0.044000000000000004
+987,Business services,2000,12,564,0.045
+988,Business services,2001,1,734,0.057999999999999996
+989,Business services,2001,2,724,0.059000000000000004
+990,Business services,2001,3,652,0.053
+991,Business services,2001,4,655,0.053
+992,Business services,2001,5,652,0.053
+993,Business services,2001,6,694,0.054000000000000006
+994,Business services,2001,7,731,0.057
+995,Business services,2001,8,790,0.062
+996,Business services,2001,9,810,0.064
+997,Business services,2001,10,910,0.07200000000000001
+998,Business services,2001,11,946,0.076
+999,Business services,2001,12,921,0.07400000000000001
+1000,Business services,2002,1,1120,0.08900000000000001
+1001,Business services,2002,2,973,0.077
+1002,Business services,2002,3,964,0.075
+1003,Business services,2002,4,951,0.073
+1004,Business services,2002,5,983,0.077
+1005,Business services,2002,6,1079,0.08199999999999999
+1006,Business services,2002,7,1075,0.08199999999999999
+1007,Business services,2002,8,926,0.07200000000000001
+1008,Business services,2002,9,1007,0.078
+1009,Business services,2002,10,962,0.075
+1010,Business services,2002,11,1029,0.08199999999999999
+1011,Business services,2002,12,1038,0.083
+1012,Business services,2003,1,1112,0.08900000000000001
+1013,Business services,2003,2,1140,0.08900000000000001
+1014,Business services,2003,3,1190,0.091
+1015,Business services,2003,4,1076,0.083
+1016,Business services,2003,5,1105,0.084
+1017,Business services,2003,6,1092,0.085
+1018,Business services,2003,7,1021,0.08199999999999999
+1019,Business services,2003,8,881,0.07200000000000001
+1020,Business services,2003,9,975,0.08
+1021,Business services,2003,10,1014,0.081
+1022,Business services,2003,11,948,0.077
+1023,Business services,2003,12,948,0.076
+1024,Business services,2004,1,1070,0.087
+1025,Business services,2004,2,964,0.077
+1026,Business services,2004,3,999,0.079
+1027,Business services,2004,4,752,0.06
+1028,Business services,2004,5,819,0.065
+1029,Business services,2004,6,814,0.065
+1030,Business services,2004,7,790,0.062
+1031,Business services,2004,8,845,0.067
+1032,Business services,2004,9,750,0.059000000000000004
+1033,Business services,2004,10,781,0.062
+1034,Business services,2004,11,872,0.068
+1035,Business services,2004,12,875,0.069
+1036,Business services,2005,1,958,0.076
+1037,Business services,2005,2,916,0.07200000000000001
+1038,Business services,2005,3,807,0.065
+1039,Business services,2005,4,714,0.057
+1040,Business services,2005,5,730,0.059000000000000004
+1041,Business services,2005,6,743,0.057999999999999996
+1042,Business services,2005,7,804,0.063
+1043,Business services,2005,8,728,0.057
+1044,Business services,2005,9,862,0.067
+1045,Business services,2005,10,748,0.057999999999999996
+1046,Business services,2005,11,711,0.055
+1047,Business services,2005,12,788,0.061
+1048,Business services,2006,1,825,0.065
+1049,Business services,2006,2,841,0.065
+1050,Business services,2006,3,824,0.063
+1051,Business services,2006,4,644,0.049
+1052,Business services,2006,5,695,0.053
+1053,Business services,2006,6,753,0.057
+1054,Business services,2006,7,735,0.055
+1055,Business services,2006,8,681,0.051
+1056,Business services,2006,9,736,0.055999999999999994
+1057,Business services,2006,10,768,0.055999999999999994
+1058,Business services,2006,11,658,0.049
+1059,Business services,2006,12,791,0.059000000000000004
+1060,Business services,2007,1,885,0.065
+1061,Business services,2007,2,825,0.06
+1062,Business services,2007,3,775,0.057
+1063,Business services,2007,4,689,0.05
+1064,Business services,2007,5,743,0.054000000000000006
+1065,Business services,2007,6,722,0.052000000000000005
+1066,Business services,2007,7,743,0.052000000000000005
+1067,Business services,2007,8,683,0.049
+1068,Business services,2007,9,655,0.047
+1069,Business services,2007,10,675,0.048
+1070,Business services,2007,11,679,0.048
+1071,Business services,2007,12,803,0.057
+1072,Business services,2008,1,893,0.064
+1073,Business services,2008,2,866,0.062
+1074,Business services,2008,3,876,0.062
+1075,Business services,2008,4,736,0.053
+1076,Business services,2008,5,829,0.059000000000000004
+1077,Business services,2008,6,890,0.062
+1078,Business services,2008,7,866,0.061
+1079,Business services,2008,8,961,0.069
+1080,Business services,2008,9,951,0.069
+1081,Business services,2008,10,1052,0.075
+1082,Business services,2008,11,992,0.07
+1083,Business services,2008,12,1147,0.081
+1084,Business services,2009,1,1445,0.10400000000000001
+1085,Business services,2009,2,1512,0.10800000000000001
+1086,Business services,2009,3,1597,0.114
+1087,Business services,2009,4,1448,0.10400000000000001
+1088,Business services,2009,5,1514,0.109
+1089,Business services,2009,6,1580,0.113
+1090,Business services,2009,7,1531,0.109
+1091,Business services,2009,8,1560,0.11
+1092,Business services,2009,9,1596,0.113
+1093,Business services,2009,10,1488,0.10300000000000001
+1094,Business services,2009,11,1514,0.106
+1095,Business services,2009,12,1486,0.10300000000000001
+1096,Business services,2010,1,1614,0.111
+1097,Business services,2010,2,1740,0.12
+1098,Education and Health,2000,1,353,0.023
+1099,Education and Health,2000,2,349,0.022000000000000002
+1100,Education and Health,2000,3,381,0.025
+1101,Education and Health,2000,4,329,0.021
+1102,Education and Health,2000,5,423,0.027000000000000003
+1103,Education and Health,2000,6,452,0.028999999999999998
+1104,Education and Health,2000,7,478,0.031
+1105,Education and Health,2000,8,450,0.028999999999999998
+1106,Education and Health,2000,9,398,0.026000000000000002
+1107,Education and Health,2000,10,339,0.021
+1108,Education and Health,2000,11,351,0.022000000000000002
+1109,Education and Health,2000,12,293,0.018000000000000002
+1110,Education and Health,2001,1,428,0.026000000000000002
+1111,Education and Health,2001,2,423,0.026000000000000002
+1112,Education and Health,2001,3,456,0.027999999999999997
+1113,Education and Health,2001,4,341,0.021
+1114,Education and Health,2001,5,390,0.024
+1115,Education and Health,2001,6,476,0.03
+1116,Education and Health,2001,7,513,0.031
+1117,Education and Health,2001,8,595,0.037000000000000005
+1118,Education and Health,2001,9,455,0.027999999999999997
+1119,Education and Health,2001,10,486,0.028999999999999998
+1120,Education and Health,2001,11,516,0.031
+1121,Education and Health,2001,12,483,0.028999999999999998
+1122,Education and Health,2002,1,586,0.035
+1123,Education and Health,2002,2,590,0.035
+1124,Education and Health,2002,3,540,0.032
+1125,Education and Health,2002,4,493,0.028999999999999998
+1126,Education and Health,2002,5,533,0.032
+1127,Education and Health,2002,6,638,0.039
+1128,Education and Health,2002,7,671,0.04
+1129,Education and Health,2002,8,660,0.039
+1130,Education and Health,2002,9,562,0.032
+1131,Education and Health,2002,10,517,0.03
+1132,Education and Health,2002,11,493,0.027999999999999997
+1133,Education and Health,2002,12,558,0.032
+1134,Education and Health,2003,1,559,0.032
+1135,Education and Health,2003,2,576,0.032
+1136,Education and Health,2003,3,518,0.028999999999999998
+1137,Education and Health,2003,4,611,0.034
+1138,Education and Health,2003,5,618,0.035
+1139,Education and Health,2003,6,769,0.044000000000000004
+1140,Education and Health,2003,7,697,0.04
+1141,Education and Health,2003,8,760,0.043
+1142,Education and Health,2003,9,649,0.037000000000000005
+1143,Education and Health,2003,10,639,0.036000000000000004
+1144,Education and Health,2003,11,662,0.038
+1145,Education and Health,2003,12,620,0.035
+1146,Education and Health,2004,1,662,0.037000000000000005
+1147,Education and Health,2004,2,608,0.034
+1148,Education and Health,2004,3,584,0.032
+1149,Education and Health,2004,4,589,0.033
+1150,Education and Health,2004,5,570,0.032
+1151,Education and Health,2004,6,769,0.042
+1152,Education and Health,2004,7,725,0.04
+1153,Education and Health,2004,8,647,0.037000000000000005
+1154,Education and Health,2004,9,593,0.033
+1155,Education and Health,2004,10,526,0.028999999999999998
+1156,Education and Health,2004,11,570,0.032
+1157,Education and Health,2004,12,562,0.031
+1158,Education and Health,2005,1,613,0.034
+1159,Education and Health,2005,2,619,0.034
+1160,Education and Health,2005,3,614,0.034
+1161,Education and Health,2005,4,591,0.033
+1162,Education and Health,2005,5,648,0.036000000000000004
+1163,Education and Health,2005,6,667,0.036000000000000004
+1164,Education and Health,2005,7,635,0.035
+1165,Education and Health,2005,8,644,0.035
+1166,Education and Health,2005,9,658,0.035
+1167,Education and Health,2005,10,628,0.034
+1168,Education and Health,2005,11,677,0.036000000000000004
+1169,Education and Health,2005,12,529,0.027999999999999997
+1170,Education and Health,2006,1,593,0.032
+1171,Education and Health,2006,2,528,0.027999999999999997
+1172,Education and Health,2006,3,563,0.03
+1173,Education and Health,2006,4,558,0.03
+1174,Education and Health,2006,5,543,0.028999999999999998
+1175,Education and Health,2006,6,617,0.033
+1176,Education and Health,2006,7,659,0.035
+1177,Education and Health,2006,8,611,0.032
+1178,Education and Health,2006,9,576,0.03
+1179,Education and Health,2006,10,531,0.027999999999999997
+1180,Education and Health,2006,11,536,0.027999999999999997
+1181,Education and Health,2006,12,502,0.026000000000000002
+1182,Education and Health,2007,1,563,0.028999999999999998
+1183,Education and Health,2007,2,489,0.025
+1184,Education and Health,2007,3,495,0.025
+1185,Education and Health,2007,4,555,0.028999999999999998
+1186,Education and Health,2007,5,622,0.033
+1187,Education and Health,2007,6,653,0.034
+1188,Education and Health,2007,7,665,0.035
+1189,Education and Health,2007,8,648,0.034
+1190,Education and Health,2007,9,630,0.032
+1191,Education and Health,2007,10,534,0.027000000000000003
+1192,Education and Health,2007,11,526,0.027000000000000003
+1193,Education and Health,2007,12,521,0.026000000000000002
+1194,Education and Health,2008,1,576,0.028999999999999998
+1195,Education and Health,2008,2,562,0.028999999999999998
+1196,Education and Health,2008,3,609,0.031
+1197,Education and Health,2008,4,551,0.027999999999999997
+1198,Education and Health,2008,5,619,0.032
+1199,Education and Health,2008,6,669,0.034
+1200,Education and Health,2008,7,776,0.039
+1201,Education and Health,2008,8,844,0.043
+1202,Education and Health,2008,9,835,0.040999999999999995
+1203,Education and Health,2008,10,797,0.039
+1204,Education and Health,2008,11,748,0.036000000000000004
+1205,Education and Health,2008,12,791,0.038
+1206,Education and Health,2009,1,792,0.038
+1207,Education and Health,2009,2,847,0.040999999999999995
+1208,Education and Health,2009,3,931,0.045
+1209,Education and Health,2009,4,964,0.046
+1210,Education and Health,2009,5,1005,0.049
+1211,Education and Health,2009,6,1267,0.061
+1212,Education and Health,2009,7,1269,0.061
+1213,Education and Health,2009,8,1239,0.06
+1214,Education and Health,2009,9,1257,0.06
+1215,Education and Health,2009,10,1280,0.06
+1216,Education and Health,2009,11,1168,0.055
+1217,Education and Health,2009,12,1183,0.055999999999999994
+1218,Education and Health,2010,1,1175,0.055
+1219,Education and Health,2010,2,1200,0.055999999999999994
+1220,Leisure and hospitality,2000,1,782,0.075
+1221,Leisure and hospitality,2000,2,779,0.075
+1222,Leisure and hospitality,2000,3,789,0.07400000000000001
+1223,Leisure and hospitality,2000,4,658,0.061
+1224,Leisure and hospitality,2000,5,675,0.062
+1225,Leisure and hospitality,2000,6,833,0.073
+1226,Leisure and hospitality,2000,7,786,0.068
+1227,Leisure and hospitality,2000,8,675,0.06
+1228,Leisure and hospitality,2000,9,636,0.059000000000000004
+1229,Leisure and hospitality,2000,10,691,0.065
+1230,Leisure and hospitality,2000,11,694,0.065
+1231,Leisure and hospitality,2000,12,639,0.059000000000000004
+1232,Leisure and hospitality,2001,1,806,0.077
+1233,Leisure and hospitality,2001,2,821,0.075
+1234,Leisure and hospitality,2001,3,817,0.07400000000000001
+1235,Leisure and hospitality,2001,4,744,0.068
+1236,Leisure and hospitality,2001,5,731,0.067
+1237,Leisure and hospitality,2001,6,821,0.07
+1238,Leisure and hospitality,2001,7,813,0.068
+1239,Leisure and hospitality,2001,8,767,0.068
+1240,Leisure and hospitality,2001,9,900,0.08
+1241,Leisure and hospitality,2001,10,903,0.083
+1242,Leisure and hospitality,2001,11,935,0.085
+1243,Leisure and hospitality,2001,12,938,0.085
+1244,Leisure and hospitality,2002,1,947,0.086
+1245,Leisure and hospitality,2002,2,973,0.087
+1246,Leisure and hospitality,2002,3,976,0.085
+1247,Leisure and hospitality,2002,4,953,0.084
+1248,Leisure and hospitality,2002,5,1022,0.086
+1249,Leisure and hospitality,2002,6,1034,0.085
+1250,Leisure and hospitality,2002,7,999,0.08199999999999999
+1251,Leisure and hospitality,2002,8,884,0.075
+1252,Leisure and hospitality,2002,9,885,0.079
+1253,Leisure and hospitality,2002,10,956,0.085
+1254,Leisure and hospitality,2002,11,978,0.08900000000000001
+1255,Leisure and hospitality,2002,12,922,0.08199999999999999
+1256,Leisure and hospitality,2003,1,1049,0.09300000000000001
+1257,Leisure and hospitality,2003,2,1145,0.1
+1258,Leisure and hospitality,2003,3,1035,0.08900000000000001
+1259,Leisure and hospitality,2003,4,986,0.085
+1260,Leisure and hospitality,2003,5,955,0.079
+1261,Leisure and hospitality,2003,6,1048,0.086
+1262,Leisure and hospitality,2003,7,1020,0.084
+1263,Leisure and hospitality,2003,8,1050,0.09
+1264,Leisure and hospitality,2003,9,978,0.08800000000000001
+1265,Leisure and hospitality,2003,10,933,0.083
+1266,Leisure and hospitality,2003,11,990,0.09
+1267,Leisure and hospitality,2003,12,885,0.08199999999999999
+1268,Leisure and hospitality,2004,1,1097,0.1
+1269,Leisure and hospitality,2004,2,987,0.08900000000000001
+1270,Leisure and hospitality,2004,3,1039,0.09
+1271,Leisure and hospitality,2004,4,925,0.079
+1272,Leisure and hospitality,2004,5,977,0.081
+1273,Leisure and hospitality,2004,6,1189,0.096
+1274,Leisure and hospitality,2004,7,965,0.078
+1275,Leisure and hospitality,2004,8,1010,0.084
+1276,Leisure and hospitality,2004,9,854,0.075
+1277,Leisure and hospitality,2004,10,853,0.073
+1278,Leisure and hospitality,2004,11,916,0.079
+1279,Leisure and hospitality,2004,12,850,0.07400000000000001
+1280,Leisure and hospitality,2005,1,993,0.087
+1281,Leisure and hospitality,2005,2,1008,0.08800000000000001
+1282,Leisure and hospitality,2005,3,967,0.083
+1283,Leisure and hospitality,2005,4,882,0.077
+1284,Leisure and hospitality,2005,5,944,0.077
+1285,Leisure and hospitality,2005,6,950,0.076
+1286,Leisure and hospitality,2005,7,929,0.07400000000000001
+1287,Leisure and hospitality,2005,8,844,0.068
+1288,Leisure and hospitality,2005,9,842,0.073
+1289,Leisure and hospitality,2005,10,796,0.068
+1290,Leisure and hospitality,2005,11,966,0.081
+1291,Leisure and hospitality,2005,12,930,0.079
+1292,Leisure and hospitality,2006,1,910,0.081
+1293,Leisure and hospitality,2006,2,1040,0.091
+1294,Leisure and hospitality,2006,3,917,0.08
+1295,Leisure and hospitality,2006,4,882,0.076
+1296,Leisure and hospitality,2006,5,830,0.07
+1297,Leisure and hospitality,2006,6,942,0.07400000000000001
+1298,Leisure and hospitality,2006,7,867,0.068
+1299,Leisure and hospitality,2006,8,855,0.069
+1300,Leisure and hospitality,2006,9,810,0.069
+1301,Leisure and hospitality,2006,10,795,0.066
+1302,Leisure and hospitality,2006,11,836,0.071
+1303,Leisure and hospitality,2006,12,701,0.059000000000000004
+1304,Leisure and hospitality,2007,1,911,0.078
+1305,Leisure and hospitality,2007,2,879,0.07400000000000001
+1306,Leisure and hospitality,2007,3,845,0.07
+1307,Leisure and hospitality,2007,4,822,0.069
+1308,Leisure and hospitality,2007,5,831,0.068
+1309,Leisure and hospitality,2007,6,917,0.07200000000000001
+1310,Leisure and hospitality,2007,7,920,0.073
+1311,Leisure and hospitality,2007,8,877,0.071
+1312,Leisure and hospitality,2007,9,892,0.07400000000000001
+1313,Leisure and hospitality,2007,10,911,0.075
+1314,Leisure and hospitality,2007,11,986,0.081
+1315,Leisure and hospitality,2007,12,961,0.079
+1316,Leisure and hospitality,2008,1,1176,0.094
+1317,Leisure and hospitality,2008,2,1056,0.085
+1318,Leisure and hospitality,2008,3,944,0.076
+1319,Leisure and hospitality,2008,4,874,0.069
+1320,Leisure and hospitality,2008,5,1074,0.084
+1321,Leisure and hospitality,2008,6,1154,0.08900000000000001
+1322,Leisure and hospitality,2008,7,1172,0.08800000000000001
+1323,Leisure and hospitality,2008,8,1122,0.087
+1324,Leisure and hospitality,2008,9,1029,0.08199999999999999
+1325,Leisure and hospitality,2008,10,1126,0.08900000000000001
+1326,Leisure and hospitality,2008,11,1283,0.099
+1327,Leisure and hospitality,2008,12,1210,0.095
+1328,Leisure and hospitality,2009,1,1487,0.115
+1329,Leisure and hospitality,2009,2,1477,0.114
+1330,Leisure and hospitality,2009,3,1484,0.11599999999999999
+1331,Leisure and hospitality,2009,4,1322,0.102
+1332,Leisure and hospitality,2009,5,1599,0.11900000000000001
+1333,Leisure and hospitality,2009,6,1688,0.121
+1334,Leisure and hospitality,2009,7,1600,0.11199999999999999
+1335,Leisure and hospitality,2009,8,1636,0.12
+1336,Leisure and hospitality,2009,9,1469,0.114
+1337,Leisure and hospitality,2009,10,1604,0.124
+1338,Leisure and hospitality,2009,11,1524,0.11900000000000001
+1339,Leisure and hospitality,2009,12,1624,0.126
+1340,Leisure and hospitality,2010,1,1804,0.142
+1341,Leisure and hospitality,2010,2,1597,0.127
+1342,Other,2000,1,274,0.049
+1343,Other,2000,2,232,0.040999999999999995
+1344,Other,2000,3,247,0.043
+1345,Other,2000,4,240,0.042
+1346,Other,2000,5,254,0.045
+1347,Other,2000,6,225,0.039
+1348,Other,2000,7,202,0.037000000000000005
+1349,Other,2000,8,187,0.035
+1350,Other,2000,9,220,0.04
+1351,Other,2000,10,161,0.028999999999999998
+1352,Other,2000,11,217,0.038
+1353,Other,2000,12,167,0.028999999999999998
+1354,Other,2001,1,197,0.034
+1355,Other,2001,2,243,0.042
+1356,Other,2001,3,200,0.034
+1357,Other,2001,4,220,0.038
+1358,Other,2001,5,172,0.032
+1359,Other,2001,6,246,0.046
+1360,Other,2001,7,228,0.040999999999999995
+1361,Other,2001,8,241,0.045
+1362,Other,2001,9,225,0.04
+1363,Other,2001,10,239,0.040999999999999995
+1364,Other,2001,11,256,0.042
+1365,Other,2001,12,277,0.045
+1366,Other,2002,1,304,0.051
+1367,Other,2002,2,339,0.055999999999999994
+1368,Other,2002,3,314,0.055
+1369,Other,2002,4,268,0.046
+1370,Other,2002,5,264,0.046
+1371,Other,2002,6,335,0.055
+1372,Other,2002,7,356,0.057999999999999996
+1373,Other,2002,8,353,0.06
+1374,Other,2002,9,281,0.048
+1375,Other,2002,10,272,0.046
+1376,Other,2002,11,284,0.049
+1377,Other,2002,12,241,0.042
+1378,Other,2003,1,304,0.053
+1379,Other,2003,2,331,0.057
+1380,Other,2003,3,370,0.061
+1381,Other,2003,4,331,0.055
+1382,Other,2003,5,339,0.057
+1383,Other,2003,6,359,0.059000000000000004
+1384,Other,2003,7,405,0.066
+1385,Other,2003,8,373,0.061
+1386,Other,2003,9,338,0.055
+1387,Other,2003,10,378,0.061
+1388,Other,2003,11,357,0.057999999999999996
+1389,Other,2003,12,278,0.045
+1390,Other,2004,1,322,0.053
+1391,Other,2004,2,366,0.059000000000000004
+1392,Other,2004,3,366,0.059000000000000004
+1393,Other,2004,4,347,0.055999999999999994
+1394,Other,2004,5,310,0.051
+1395,Other,2004,6,326,0.054000000000000006
+1396,Other,2004,7,346,0.055999999999999994
+1397,Other,2004,8,341,0.055999999999999994
+1398,Other,2004,9,301,0.049
+1399,Other,2004,10,300,0.048
+1400,Other,2004,11,294,0.048
+1401,Other,2004,12,276,0.043
+1402,Other,2005,1,290,0.047
+1403,Other,2005,2,325,0.053
+1404,Other,2005,3,308,0.05
+1405,Other,2005,4,306,0.049
+1406,Other,2005,5,314,0.05
+1407,Other,2005,6,291,0.046
+1408,Other,2005,7,274,0.042
+1409,Other,2005,8,306,0.048
+1410,Other,2005,9,307,0.049
+1411,Other,2005,10,319,0.05
+1412,Other,2005,11,300,0.049
+1413,Other,2005,12,269,0.043
+1414,Other,2006,1,308,0.049
+1415,Other,2006,2,281,0.044000000000000004
+1416,Other,2006,3,292,0.046
+1417,Other,2006,4,266,0.040999999999999995
+1418,Other,2006,5,265,0.042
+1419,Other,2006,6,265,0.043
+1420,Other,2006,7,305,0.047
+1421,Other,2006,8,341,0.053
+1422,Other,2006,9,310,0.05
+1423,Other,2006,10,268,0.044000000000000004
+1424,Other,2006,11,306,0.05
+1425,Other,2006,12,306,0.052000000000000005
+1426,Other,2007,1,275,0.047
+1427,Other,2007,2,257,0.043
+1428,Other,2007,3,222,0.037000000000000005
+1429,Other,2007,4,224,0.036000000000000004
+1430,Other,2007,5,242,0.039
+1431,Other,2007,6,256,0.04
+1432,Other,2007,7,243,0.038
+1433,Other,2007,8,239,0.038
+1434,Other,2007,9,257,0.042
+1435,Other,2007,10,182,0.03
+1436,Other,2007,11,255,0.040999999999999995
+1437,Other,2007,12,235,0.039
+1438,Other,2008,1,264,0.044000000000000004
+1439,Other,2008,2,313,0.051
+1440,Other,2008,3,283,0.046
+1441,Other,2008,4,251,0.04
+1442,Other,2008,5,275,0.044000000000000004
+1443,Other,2008,6,322,0.05
+1444,Other,2008,7,352,0.052000000000000005
+1445,Other,2008,8,412,0.063
+1446,Other,2008,9,374,0.057999999999999996
+1447,Other,2008,10,334,0.053
+1448,Other,2008,11,434,0.07
+1449,Other,2008,12,367,0.061
+1450,Other,2009,1,431,0.071
+1451,Other,2009,2,453,0.073
+1452,Other,2009,3,377,0.06
+1453,Other,2009,4,403,0.064
+1454,Other,2009,5,476,0.075
+1455,Other,2009,6,557,0.084
+1456,Other,2009,7,490,0.07400000000000001
+1457,Other,2009,8,528,0.08199999999999999
+1458,Other,2009,9,462,0.071
+1459,Other,2009,10,541,0.085
+1460,Other,2009,11,491,0.08
+1461,Other,2009,12,513,0.08199999999999999
+1462,Other,2010,1,609,0.1
+1463,Other,2010,2,603,0.099
+1464,Agriculture,2000,1,154,0.10300000000000001
+1465,Agriculture,2000,2,173,0.115
+1466,Agriculture,2000,3,152,0.10400000000000001
+1467,Agriculture,2000,4,135,0.08900000000000001
+1468,Agriculture,2000,5,73,0.051
+1469,Agriculture,2000,6,109,0.067
+1470,Agriculture,2000,7,77,0.05
+1471,Agriculture,2000,8,110,0.07
+1472,Agriculture,2000,9,124,0.08199999999999999
+1473,Agriculture,2000,10,113,0.08
+1474,Agriculture,2000,11,192,0.133
+1475,Agriculture,2000,12,196,0.139
+1476,Agriculture,2001,1,188,0.138
+1477,Agriculture,2001,2,193,0.151
+1478,Agriculture,2001,3,267,0.192
+1479,Agriculture,2001,4,140,0.10400000000000001
+1480,Agriculture,2001,5,109,0.077
+1481,Agriculture,2001,6,130,0.09699999999999999
+1482,Agriculture,2001,7,113,0.076
+1483,Agriculture,2001,8,141,0.09300000000000001
+1484,Agriculture,2001,9,101,0.07200000000000001
+1485,Agriculture,2001,10,118,0.087
+1486,Agriculture,2001,11,145,0.11599999999999999
+1487,Agriculture,2001,12,192,0.151
+1488,Agriculture,2002,1,195,0.14800000000000002
+1489,Agriculture,2002,2,187,0.14800000000000002
+1490,Agriculture,2002,3,269,0.196
+1491,Agriculture,2002,4,151,0.10800000000000001
+1492,Agriculture,2002,5,89,0.068
+1493,Agriculture,2002,6,89,0.063
+1494,Agriculture,2002,7,114,0.073
+1495,Agriculture,2002,8,125,0.09
+1496,Agriculture,2002,9,92,0.063
+1497,Agriculture,2002,10,97,0.066
+1498,Agriculture,2002,11,137,0.111
+1499,Agriculture,2002,12,120,0.098
+1500,Agriculture,2003,1,159,0.132
+1501,Agriculture,2003,2,172,0.147
+1502,Agriculture,2003,3,161,0.129
+1503,Agriculture,2003,4,154,0.12
+1504,Agriculture,2003,5,133,0.102
+1505,Agriculture,2003,6,94,0.069
+1506,Agriculture,2003,7,113,0.08199999999999999
+1507,Agriculture,2003,8,173,0.107
+1508,Agriculture,2003,9,98,0.062
+1509,Agriculture,2003,10,136,0.085
+1510,Agriculture,2003,11,148,0.10300000000000001
+1511,Agriculture,2003,12,137,0.109
+1512,Agriculture,2004,1,184,0.151
+1513,Agriculture,2004,2,168,0.142
+1514,Agriculture,2004,3,153,0.127
+1515,Agriculture,2004,4,107,0.083
+1516,Agriculture,2004,5,99,0.07400000000000001
+1517,Agriculture,2004,6,106,0.076
+1518,Agriculture,2004,7,140,0.1
+1519,Agriculture,2004,8,103,0.07
+1520,Agriculture,2004,9,88,0.064
+1521,Agriculture,2004,10,102,0.077
+1522,Agriculture,2004,11,131,0.105
+1523,Agriculture,2004,12,165,0.14
+1524,Agriculture,2005,1,153,0.132
+1525,Agriculture,2005,2,107,0.099
+1526,Agriculture,2005,3,139,0.11800000000000001
+1527,Agriculture,2005,4,84,0.069
+1528,Agriculture,2005,5,66,0.053
+1529,Agriculture,2005,6,76,0.052000000000000005
+1530,Agriculture,2005,7,69,0.047
+1531,Agriculture,2005,8,100,0.071
+1532,Agriculture,2005,9,127,0.095
+1533,Agriculture,2005,10,85,0.067
+1534,Agriculture,2005,11,118,0.096
+1535,Agriculture,2005,12,127,0.111
+1536,Agriculture,2006,1,140,0.115
+1537,Agriculture,2006,2,139,0.11800000000000001
+1538,Agriculture,2006,3,117,0.098
+1539,Agriculture,2006,4,81,0.062
+1540,Agriculture,2006,5,79,0.06
+1541,Agriculture,2006,6,35,0.024
+1542,Agriculture,2006,7,55,0.036000000000000004
+1543,Agriculture,2006,8,76,0.053
+1544,Agriculture,2006,9,78,0.059000000000000004
+1545,Agriculture,2006,10,77,0.057999999999999996
+1546,Agriculture,2006,11,125,0.096
+1547,Agriculture,2006,12,139,0.10400000000000001
+1548,Agriculture,2007,1,128,0.1
+1549,Agriculture,2007,2,127,0.096
+1550,Agriculture,2007,3,123,0.09699999999999999
+1551,Agriculture,2007,4,67,0.057
+1552,Agriculture,2007,5,64,0.051
+1553,Agriculture,2007,6,59,0.045
+1554,Agriculture,2007,7,40,0.031
+1555,Agriculture,2007,8,54,0.047
+1556,Agriculture,2007,9,53,0.043
+1557,Agriculture,2007,10,47,0.04
+1558,Agriculture,2007,11,80,0.066
+1559,Agriculture,2007,12,96,0.075
+1560,Agriculture,2008,1,113,0.095
+1561,Agriculture,2008,2,135,0.109
+1562,Agriculture,2008,3,175,0.132
+1563,Agriculture,2008,4,108,0.086
+1564,Agriculture,2008,5,94,0.07400000000000001
+1565,Agriculture,2008,6,86,0.061
+1566,Agriculture,2008,7,125,0.085
+1567,Agriculture,2008,8,111,0.076
+1568,Agriculture,2008,9,84,0.057999999999999996
+1569,Agriculture,2008,10,97,0.071
+1570,Agriculture,2008,11,119,0.095
+1571,Agriculture,2008,12,229,0.17
+1572,Agriculture,2009,1,245,0.187
+1573,Agriculture,2009,2,251,0.188
+1574,Agriculture,2009,3,241,0.19
+1575,Agriculture,2009,4,176,0.135
+1576,Agriculture,2009,5,136,0.1
+1577,Agriculture,2009,6,182,0.12300000000000001
+1578,Agriculture,2009,7,180,0.121
+1579,Agriculture,2009,8,195,0.131
+1580,Agriculture,2009,9,150,0.111
+1581,Agriculture,2009,10,166,0.11800000000000001
+1582,Agriculture,2009,11,180,0.126
+1583,Agriculture,2009,12,292,0.19699999999999998
+1584,Agriculture,2010,1,318,0.213
+1585,Agriculture,2010,2,285,0.188
+1586,Self-employed,2000,1,239,0.023
+1587,Self-employed,2000,2,262,0.025
+1588,Self-employed,2000,3,213,0.02
+1589,Self-employed,2000,4,218,0.02
+1590,Self-employed,2000,5,206,0.019
+1591,Self-employed,2000,6,188,0.018000000000000002
+1592,Self-employed,2000,7,222,0.021
+1593,Self-employed,2000,8,186,0.017
+1594,Self-employed,2000,9,213,0.02
+1595,Self-employed,2000,10,226,0.022000000000000002
+1596,Self-employed,2000,11,273,0.027000000000000003
+1597,Self-employed,2000,12,178,0.018000000000000002
+1598,Self-employed,2001,1,194,0.019
+1599,Self-employed,2001,2,209,0.02
+1600,Self-employed,2001,3,181,0.017
+1601,Self-employed,2001,4,216,0.021
+1602,Self-employed,2001,5,206,0.02
+1603,Self-employed,2001,6,187,0.017
+1604,Self-employed,2001,7,191,0.018000000000000002
+1605,Self-employed,2001,8,243,0.023
+1606,Self-employed,2001,9,256,0.024
+1607,Self-employed,2001,10,247,0.023
+1608,Self-employed,2001,11,234,0.023
+1609,Self-employed,2001,12,249,0.025
+1610,Self-employed,2002,1,263,0.027000000000000003
+1611,Self-employed,2002,2,250,0.026000000000000002
+1612,Self-employed,2002,3,217,0.022000000000000002
+1613,Self-employed,2002,4,255,0.025
+1614,Self-employed,2002,5,264,0.026000000000000002
+1615,Self-employed,2002,6,246,0.024
+1616,Self-employed,2002,7,249,0.024
+1617,Self-employed,2002,8,271,0.026000000000000002
+1618,Self-employed,2002,9,266,0.025
+1619,Self-employed,2002,10,275,0.026000000000000002
+1620,Self-employed,2002,11,297,0.027999999999999997
+1621,Self-employed,2002,12,327,0.031
+1622,Self-employed,2003,1,324,0.03
+1623,Self-employed,2003,2,304,0.03
+1624,Self-employed,2003,3,279,0.027000000000000003
+1625,Self-employed,2003,4,248,0.024
+1626,Self-employed,2003,5,271,0.026000000000000002
+1627,Self-employed,2003,6,295,0.027000000000000003
+1628,Self-employed,2003,7,270,0.025
+1629,Self-employed,2003,8,302,0.027000000000000003
+1630,Self-employed,2003,9,287,0.026000000000000002
+1631,Self-employed,2003,10,338,0.031
+1632,Self-employed,2003,11,308,0.027999999999999997
+1633,Self-employed,2003,12,299,0.027999999999999997
+1634,Self-employed,2004,1,302,0.027999999999999997
+1635,Self-employed,2004,2,260,0.025
+1636,Self-employed,2004,3,260,0.025
+1637,Self-employed,2004,4,242,0.023
+1638,Self-employed,2004,5,287,0.027000000000000003
+1639,Self-employed,2004,6,306,0.027999999999999997
+1640,Self-employed,2004,7,291,0.026000000000000002
+1641,Self-employed,2004,8,324,0.028999999999999998
+1642,Self-employed,2004,9,362,0.033
+1643,Self-employed,2004,10,301,0.027000000000000003
+1644,Self-employed,2004,11,353,0.032
+1645,Self-employed,2004,12,341,0.032
+1646,Self-employed,2005,1,346,0.032
+1647,Self-employed,2005,2,363,0.034
+1648,Self-employed,2005,3,312,0.028999999999999998
+1649,Self-employed,2005,4,273,0.024
+1650,Self-employed,2005,5,299,0.027000000000000003
+1651,Self-employed,2005,6,268,0.024
+1652,Self-employed,2005,7,282,0.025
+1653,Self-employed,2005,8,249,0.023
+1654,Self-employed,2005,9,282,0.026000000000000002
+1655,Self-employed,2005,10,255,0.023
+1656,Self-employed,2005,11,319,0.03
+1657,Self-employed,2005,12,327,0.031
+1658,Self-employed,2006,1,341,0.032
+1659,Self-employed,2006,2,332,0.031
+1660,Self-employed,2006,3,300,0.027999999999999997
+1661,Self-employed,2006,4,334,0.031
+1662,Self-employed,2006,5,251,0.023
+1663,Self-employed,2006,6,245,0.022000000000000002
+1664,Self-employed,2006,7,291,0.026000000000000002
+1665,Self-employed,2006,8,306,0.027000000000000003
+1666,Self-employed,2006,9,299,0.027000000000000003
+1667,Self-employed,2006,10,275,0.025
+1668,Self-employed,2006,11,257,0.023
+1669,Self-employed,2006,12,287,0.026000000000000002
+1670,Self-employed,2007,1,376,0.035
+1671,Self-employed,2007,2,300,0.027999999999999997
+1672,Self-employed,2007,3,311,0.027999999999999997
+1673,Self-employed,2007,4,240,0.022000000000000002
+1674,Self-employed,2007,5,276,0.025
+1675,Self-employed,2007,6,258,0.023
+1676,Self-employed,2007,7,324,0.028999999999999998
+1677,Self-employed,2007,8,315,0.028999999999999998
+1678,Self-employed,2007,9,304,0.027999999999999997
+1679,Self-employed,2007,10,338,0.031
+1680,Self-employed,2007,11,336,0.032
+1681,Self-employed,2007,12,326,0.032
+1682,Self-employed,2008,1,338,0.033
+1683,Self-employed,2008,2,340,0.032
+1684,Self-employed,2008,3,346,0.033
+1685,Self-employed,2008,4,338,0.032
+1686,Self-employed,2008,5,366,0.034
+1687,Self-employed,2008,6,364,0.033
+1688,Self-employed,2008,7,345,0.031
+1689,Self-employed,2008,8,378,0.035
+1690,Self-employed,2008,9,414,0.039
+1691,Self-employed,2008,10,396,0.039
+1692,Self-employed,2008,11,411,0.040999999999999995
+1693,Self-employed,2008,12,559,0.055
+1694,Self-employed,2009,1,659,0.065
+1695,Self-employed,2009,2,586,0.057
+1696,Self-employed,2009,3,625,0.059000000000000004
+1697,Self-employed,2009,4,488,0.046
+1698,Self-employed,2009,5,530,0.05
+1699,Self-employed,2009,6,472,0.044000000000000004
+1700,Self-employed,2009,7,552,0.052000000000000005
+1701,Self-employed,2009,8,569,0.053
+1702,Self-employed,2009,9,636,0.059000000000000004
+1703,Self-employed,2009,10,610,0.059000000000000004
+1704,Self-employed,2009,11,592,0.057
+1705,Self-employed,2009,12,609,0.059000000000000004
+1706,Self-employed,2010,1,730,0.07200000000000001
+1707,Self-employed,2010,2,680,0.065

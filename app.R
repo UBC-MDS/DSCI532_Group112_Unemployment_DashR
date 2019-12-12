@@ -36,7 +36,7 @@ yearRangeSlider <- dccRangeSlider(
 # Select the single year for plot 3
 yearSlider <- dccSlider(
   id = 'year',
-  marks = yearMarks,
+  marks = yearMarks[-11],
   min = 2000,
   max = 2009,
   value = 2000
@@ -183,10 +183,14 @@ graph3 <- dccGraph(
 
 #Contents for each tab
 
-content1 <- htmlDiv(list(
-    htmlIframe(height=5, width=10, style=list(borderWidth = 0)), #space
-    graph1,
+content1 <- htmlDiv(style = list('display' = 'flex'), list(
+  htmlDiv(style = list('columnCount' = 1, 'padding' = '25px', "width" = '60%'), list(
+    htmlIframe(height=1, width=10, style=list(borderWidth = 0)), #space
+    graph1
+  )),
+  htmlDiv(style = list('columnCount' = 1, 'padding' = '10px', 'width' = '30%'), list(
     #selection components go here
+    htmlIframe(height=60, width=10, style=list(borderWidth = 0)), #space
     dccMarkdown('**Select a statistic:**'),
     statRadioButton,
     htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
@@ -197,38 +201,48 @@ content1 <- htmlDiv(list(
     htmlIframe(height=30, width=10, style=list(borderWidth = 0)), #space
     dccMarkdown("[Data Source](https://observablehq.com/@randomfractals/vega-datasets)")
   ))
+))
+  
 
-content2 <- htmlDiv(list(
-  htmlIframe(height=5, width=10, style=list(borderWidth = 0)), #space
-  graph2,
-  #selection components
-  htmlIframe(height=15, width=10, style=list(borderWidth = 0)), #space
-  dccMarkdown('**Select a statistic:**'),
-  statRadioButton,
-  htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
-  dccMarkdown('**Select industries:**'),
-  industryDropdown,
-  #end selection components
-  htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
-  dccMarkdown("[Data Source](https://observablehq.com/@randomfractals/vega-datasets)")
+content2 <- htmlDiv(style = list('display' = 'flex'), list(
+  htmlDiv(style = list('columnCount' = 1, 'padding' = '25px', "width" = '60%'), list(
+    htmlIframe(height=5, width=10, style=list(borderWidth = 0)), #space
+    graph2
+  )),
+  htmlDiv(style = list('columnCount' = 1, 'padding' = '10px', 'width' = '30%'), list(
+    #selection components
+    htmlIframe(height=60, width=10, style=list(borderWidth = 0)), #space
+    dccMarkdown('**Select a statistic:**'),
+    statRadioButton,
+    htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
+    dccMarkdown('**Select industries:**'),
+    industryDropdown,
+    #end selection components
+    htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
+    dccMarkdown("[Data Source](https://observablehq.com/@randomfractals/vega-datasets)")
+  ))
 ))
 
-content3 <- htmlDiv(list(
-  htmlIframe(height=5, width=10, style=list(borderWidth = 0)), #space
-  graph3,
-  htmlIframe(height=15, width=10, style=list(borderWidth = 0)),
-  #selection components go here
-  dccMarkdown('**Select a statistic:**'),
-  statRadioButton,
-  htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
-  dccMarkdown('**Select industries:**'),
-  industryDropdown,
-  htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
-  dccMarkdown('**Select a year:**'),
-  yearSlider,
-  #end selection components
-  htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
-  dccMarkdown("[Data Source](https://observablehq.com/@randomfractals/vega-datasets)")
+content3 <- htmlDiv(style = list('display' = 'flex'), list(
+  htmlDiv(style = list('columnCount' = 1, 'padding' = '25px', "width" = '60%'), list( 
+    htmlIframe(height=5, width=10, style=list(borderWidth = 0)), #space
+    graph3
+  )),
+  htmlDiv(style = list('columnCount' = 1, 'padding' = '10px', 'width' = '30%'), list(
+    htmlIframe(height=60, width=10, style=list(borderWidth = 0)),
+    #selection components go here
+    dccMarkdown('**Select a statistic:**'),
+    statRadioButton,
+    htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
+    dccMarkdown('**Select industries:**'),
+    industryDropdown,
+    htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
+    dccMarkdown('**Select a year:**'),
+    yearSlider,
+    #end selection components
+    htmlIframe(height=20, width=10, style=list(borderWidth = 0)), #space
+    dccMarkdown("[Data Source](https://observablehq.com/@randomfractals/vega-datasets)")
+  ))
 ))
 
 # Title features
@@ -236,33 +250,24 @@ content3 <- htmlDiv(list(
 colors <- list(
   background = '#111111',
   text = '#7FDBFF',
-  lightyellow= '#fff98f'
+  lightblue= '#71adc9'
 )
 
 pageTitle <- htmlDiv(list(
-  htmlH1(
-  'Exploring Unemployment Across Industries',
+  htmlH1('Exploring Unemployment Across Industries'),
+  htmlH5('These graphs display a framework for countries to examine their unemployment rates/counts across industries.')),
   style = list(
     textAlign = 'center',
-    color = '#00008b',
+    color = '#0f1314',
     'font-family'= 'Optima',
     'font-style'= 'bold',
     "margin-left"= "5px",
     "margin-top"= "5px",
     "margin-bottom"="5px",
     'font-size'='40px',
-    padding =  15,
-    backgroundColor = colors$lightyellow
-  )), 
-  htmlH5(
-  'These graphs display a framework for countries to examine their unemployment rates/counts across industries.',
-  style = list(
-    textAlign = 'center',
-    color = '#00008b',
-    'font-family'= 'Courier',
-    backgroundColor = colors$lightyellow
-  )
-)))
+    padding =  25,
+    backgroundColor = colors$lightblue
+  ))
 
 
 markdown_text <- "
@@ -350,5 +355,4 @@ app$callback(
   })
 
 
-app$run_server()
-
+app$run_server(host = "0.0.0.0", port = Sys.getenv('PORT', 8050))

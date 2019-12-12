@@ -9,8 +9,8 @@ library(plotly)
 app <- Dash$new(external_stylesheets = "https://codepen.io/chriddyp/pen/bWLwgP.css")
 
 # Load the data
-unemply_df_year <- read_csv("data/unemply_df_year.csv")
-unemply_df_month <- read_csv("data/unemply_df_month.csv")
+unemply_df_year <- read_csv("https://raw.githubusercontent.com/UBC-MDS/DSCI532_Group112_Unemployment_DashR/master/data/unemply_df_year.csv")
+unemply_df_month <- read_csv("https://raw.githubusercontent.com/UBC-MDS/DSCI532_Group112_Unemployment_DashR/master/data/unemply_df_month.csv")
 
 # Some wrangling
 df <- unemply_df_year %>%
@@ -95,7 +95,7 @@ make_plot_1 <- function(year_range = c(2003, 2005), stat = "rate"){
       theme_bw() + 
       theme(legend.position = "none") 
   }
-  gp <- ggplotly(p, width = 800, height = 500) %>%
+  gp <- ggplotly(p, width = 800, height = 500, tooltip = FALSE) %>%
     config(displayModeBar = FALSE)
   return(gp)
 }

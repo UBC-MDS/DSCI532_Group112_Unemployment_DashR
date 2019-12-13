@@ -75,7 +75,7 @@ make_plot_1 <- function(year_range = c(2003, 2005), stat = "rate"){
     new_df <- new_df %>%
       mutate(colour = ifelse(rate < 0, "type1", "type2"))
     
-    p <- ggplot(new_df, aes(industry, rate, colour = colour) +
+    p <- ggplot(new_df, aes(industry, rate, colour = colour)) +
       geom_segment(aes(xend = industry, y = 0, yend = rate)) +
       geom_point(size = 2) + 
       coord_flip() + 
@@ -88,7 +88,7 @@ make_plot_1 <- function(year_range = c(2003, 2005), stat = "rate"){
     new_df <- new_df %>%
       mutate(colour = ifelse(count < 0, "type1", "type2"))
     
-    p <- ggplot(new_df, aes(industry, count, colour = colour) +
+    p <- ggplot(new_df, aes(industry, count, colour = colour)) +
       geom_segment(aes(xend = industry, y = 0, yend = count)) +
       geom_point(size = 2) + 
       coord_flip() +

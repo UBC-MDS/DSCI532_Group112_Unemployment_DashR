@@ -50,7 +50,7 @@ industryDropdown <- dccDropdown(
     unique(unemply_df_year$industry), function(x){
     list(label=x, value=x)
   }),
-  value = unique(unemply_df_year$industry), #Selects all by default
+  value = c("Agriculture", "Construction"), 
   multi = TRUE
 )
 
@@ -96,38 +96,45 @@ make_plot_1 <- function(year_range = c(2003, 2005), stat = "rate"){
       theme_bw() + 
       theme(legend.position = "none") 
   }
-  gp <- ggplotly(p, width = 800, height = 500, tooltip = FALSE) %>%
-    config(displayModeBar = FALSE)
+  gp <- ggplotly(p, width = 800, height = 500, tooltip = FALSE) 
   return(gp)
 }
 
 # Plot 2
 
-make_plot_2 <- function(industries = all_industries, stat = "rate"){
+make_plot_2 <- function(industries = c("Agriculture", "Construction"), stat = "rate"){
+  avg_df <- unemply_df_year %>%
+    group_by(year) %>%
+    summarize(rate = mean(rate),
+              count = mean(count))
+  
   new_df <- unemply_df_year %>%
     filter(industry %in% industries)
   if(stat == "rate"){
-    p <- ggplot(new_df, aes(factor(year), rate, colour = industry, group = industry)) + 
-      geom_line() + 
-      geom_point() + 
+    p <- ggplot() + 
+      geom_line(new_df, mapping = aes(factor(year), rate, colour = industry, group = industry)) +
+      geom_point(new_df, mapping = aes(factor(year), rate, colour = industry, group = industry)) +
+      geom_line(avg_df, mapping = aes(factor(year), rate, group = 1), alpha = 0.4, linetype = 'dashed') +
       scale_y_continuous(labels = percent_format(accuracy = 1L)) + 
       labs(x = '', y = 'Rate', colour = 'Industry') +
       theme_bw()
   } else {
-    p <- ggplot(new_df, aes(factor(year), count, colour = industry, group = industry)) + 
-      geom_line() + 
-      geom_point() + 
+    p <- ggplot() + 
+      geom_line(new_df, mapping = aes(factor(year), count, colour = industry, group = industry)) +
+      geom_point(new_df, mapping = aes(factor(year), count, colour = industry, group = industry)) +
+      geom_line(avg_df, mapping = aes(factor(year), count, group = 1), alpha = 0.4, linetype = 'dashed') +
       labs(x = '', y = 'Count', colour = 'Industry') +
       theme_bw()
   }  
-  gp <- ggplotly(p, width = 800, height = 500) %>%
-    config(displayModeBar = FALSE)
+  gp <- ggplotly(p, width = 800, height = 500, tooltip =FALSE)
   return(gp)
 }
 
+
+
 # Plot 3
 
-make_plot_3 <- function(industries = all_industries, year_desired = 2000, stat = "rate"){
+make_plot_3 <- function(industries = c("Agriculture", "Construction"), year_desired = 2000, stat = "rate"){
   avg_df <- unemply_df_month %>%
     group_by(month) %>%
     summarize(rate = mean(rate),
@@ -138,25 +145,26 @@ make_plot_3 <- function(industries = all_industries, year_desired = 2000, stat =
            industry %in% industries)
 
   if(stat == "rate"){
-    p <- ggplot(new_df, aes(factor(month), rate, colour = industry, group = industry)) + 
-      geom_line() + 
-      geom_point() +
+    p <- ggplot() + 
+      geom_line(new_df, mapping = aes(factor(month), rate, colour = industry, group = industry)) +
+      geom_point(new_df, mapping = aes(factor(month), rate, colour = industry, group = industry)) +
+      geom_line(avg_df, mapping = aes(month, rate), alpha = 0.4, linetype = 'dashed') +
       scale_y_continuous(labels = percent_format(accuracy = 1L)) + 
       scale_x_discrete(breaks = seq_along(1:12), labels=c("Jan", "Feb", "Mar", "Apr", "May", "Jun", 
                                                           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")) +
       labs(x = '', y = 'Rate', colour = 'Industry') +
       theme_bw()
   } else {
-    p <- ggplot(new_df, aes(factor(month), count, colour = industry, group = industry)) + 
-      geom_line() + 
-      geom_point() + 
+    p <- ggplot() + 
+      geom_line(new_df, mapping = aes(factor(month), count, colour = industry, group = industry)) +
+      geom_point(new_df, mapping = aes(factor(month), count, colour = industry, group = industry)) +
+      geom_line(avg_df, mapping = aes(month, count), alpha = 0.4, linetype = 'dashed') +
       scale_x_discrete(breaks = seq_along(1:12), labels=c("Jan", "Feb", "Mar", "Apr", "May", "Jun", 
                                                           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")) +
       labs(x = '', y = 'Count', colour = 'Industry') +
       theme_bw()
   }
-  gp <- ggplotly(p, width = 800, height = 500) %>%
-    config(displayModeBar = FALSE)
+  gp <- ggplotly(p, width = 800, height = 500, tooltip =FALSE) 
   return(gp)
 }
 
@@ -207,7 +215,8 @@ content1 <- htmlDiv(style = list('display' = 'flex'), list(
 content2 <- htmlDiv(style = list('display' = 'flex'), list(
   htmlDiv(style = list('columnCount' = 1, 'padding' = '25px', "width" = '60%'), list(
     htmlIframe(height=5, width=10, style=list(borderWidth = 0)), #space
-    graph2
+    graph2,
+    htmlLabel('Dashed line is the average', style = list("margin-left" = "500px", 'font-size'='14px'))
   )),
   htmlDiv(style = list('columnCount' = 1, 'padding' = '10px', 'width' = '30%'), list(
     #selection components
@@ -223,10 +232,13 @@ content2 <- htmlDiv(style = list('display' = 'flex'), list(
   ))
 ))
 
+
+
 content3 <- htmlDiv(style = list('display' = 'flex'), list(
   htmlDiv(style = list('columnCount' = 1, 'padding' = '25px', "width" = '60%'), list( 
     htmlIframe(height=5, width=10, style=list(borderWidth = 0)), #space
-    graph3
+    graph3,
+    htmlLabel('Dashed line is the average', style = list("margin-left" = "500px", 'font-size'='14px'))
   )),
   htmlDiv(style = list('columnCount' = 1, 'padding' = '10px', 'width' = '30%'), list(
     htmlIframe(height=60, width=10, style=list(borderWidth = 0)),
@@ -244,6 +256,7 @@ content3 <- htmlDiv(style = list('display' = 'flex'), list(
     dccMarkdown("[Data Source](https://observablehq.com/@randomfractals/vega-datasets)")
   ))
 ))
+
 
 # Title features
 

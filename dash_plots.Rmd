@@ -59,20 +59,26 @@ make_plot_1 <- function(year_range = c(2000, 2003), stat = "rate"){
 
 # plot 2
 make_plot_2 <- function(industries = c("Agriculture", "Construction"), stat = "rate"){
+  avg_df <- unemply_df_year %>%
+    group_by(year) %>%
+    summarize(rate = mean(rate),
+              count = mean(count))
   
   new_df <- unemply_df_year %>%
     filter(industry %in% industries)
   if(stat == "rate"){
-    ggplot(new_df, aes(factor(year), rate, colour = industry, group = industry)) + 
-      geom_line() + 
-      geom_point() + 
+    ggplot() + 
+      geom_line(new_df, mapping = aes(factor(year), rate, colour = industry, group = industry)) +
+      geom_point(new_df, mapping = aes(factor(year), rate, colour = industry, group = industry)) +
+      geom_line(avg_df, mapping = aes(factor(year), rate, group = 1), alpha = 0.4, linetype = 'dashed') +
       scale_y_continuous(labels = percent_format(accuracy = 1L)) + 
-      labs(x = '', y = 'Rate', colour = 'Industry')
+      labs(x = '', y = 'Rate', colour = 'Industry', caption = "dashed line is the average")
   } else {
-    ggplot(new_df, aes(factor(year), count, colour = industry, group = industry)) + 
-      geom_line() + 
-      geom_point() + 
-      labs(x = '', y = 'Count', colour = 'Industry')
+    ggplot() + 
+      geom_line(new_df, mapping = aes(factor(year), count, colour = industry, group = industry)) +
+      geom_point(new_df, mapping = aes(factor(year), count, colour = industry, group = industry)) +
+      geom_line(avg_df, mapping = aes(factor(year), count, group = 1), alpha = 0.4, linetype = 'dashed') +
+      labs(x = '', y = 'Count', colour = 'Industry', caption = "dashed line is the average")
   }   
 }
 
@@ -87,29 +93,25 @@ make_plot_3 <- function(industries = c("Agriculture", "Construction"), year_desi
     filter(year == year_desired,
            industry %in% industries)
   if(stat == "rate"){
-    ggplot(new_df, aes(factor(month), rate, colour = industry, group = industry)) + 
-      geom_line() + 
-      geom_point() +
+    ggplot() + 
+      geom_line(new_df, mapping = aes(factor(month), rate, colour = industry, group = industry)) +
+      geom_point(new_df, mapping = aes(factor(month), rate, colour = industry, group = industry)) +
+      geom_line(avg_df, mapping = aes(month, rate), alpha = 0.4, linetype = 'dashed') +
       scale_y_continuous(labels = percent_format(accuracy = 1L)) + 
       scale_x_discrete(breaks = seq_along(1:12), labels=c("Jan", "Feb", "Mar", "Apr", "May", "Jun", 
                                                           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")) +
-      labs(x = '', y = 'Rate', colour = 'Industry')
+      labs(x = '', y = 'Rate', colour = 'Industry', caption = "dashed line is the average")
   } else {
-    ggplot(new_df, aes(factor(month), count, colour = industry, group = industry)) + 
-      geom_line() + 
-      geom_point() + 
+    ggplot() + 
+      geom_line(new_df, mapping = aes(factor(month), count, colour = industry, group = industry)) +
+      geom_point(new_df, mapping = aes(factor(month), count, colour = industry, group = industry)) +
+      geom_line(avg_df, mapping = aes(month, count), alpha = 0.4, linetype = 'dashed') +
       scale_x_discrete(breaks = seq_along(1:12), labels=c("Jan", "Feb", "Mar", "Apr", "May", "Jun", 
                                                           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")) +
-      labs(x = '', y = 'Count', colour = 'Industry')
+      labs(x = '', y = 'Count', colour = 'Industry', caption = "dashed line is the average")
     
   }
 }
-
-# ggplot() + 
-#   geom_line(new_df, mapping = aes(factor(month), rate, colour = industry, group = industry)) + 
-#   geom_point(new_df, mapping = aes(factor(month), rate, colour = industry, group = industry)) + 
-#   geom_line(avg_df, mapping = aes(month, rate), alpha = 0.5, linetype = 'dashed') +
-#   labs(x = '', y = 'Unemployment Rate', colour = 'Industry')
 
 ```
 

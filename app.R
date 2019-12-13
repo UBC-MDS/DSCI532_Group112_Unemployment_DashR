@@ -50,7 +50,7 @@ industryDropdown <- dccDropdown(
     unique(unemply_df_year$industry), function(x){
     list(label=x, value=x)
   }),
-  value = c('Agriculture', 'Construction'),
+  value = c("Agriculture", "Construction"), 
   multi = TRUE
 )
 
@@ -98,13 +98,13 @@ make_plot_1 <- function(year_range = c(2003, 2005), stat = "rate"){
       theme_bw() + 
       theme(legend.position = "none") 
   }
-  gp <- ggplotly(p, width = 800, height = 500, tooltip = c("text"))
+  gp <- ggplotly(p, width = 800, height = 500, tooltip = FALSE) 
   return(gp)
 }
 
 # Plot 2
 
-make_plot_2 <- function(industries = list('Agriculture', 'Construction'), stat = "rate"){
+make_plot_2 <- function(industries = c("Agriculture", "Construction"), stat = "rate"){
   avg_df <- unemply_df_year %>%
     group_by(year) %>%
     summarize(rate = mean(rate),
@@ -127,14 +127,16 @@ make_plot_2 <- function(industries = list('Agriculture', 'Construction'), stat =
       geom_line(avg_df, mapping = aes(factor(year), count, group = 1), alpha = 0.4, linetype = 'dashed') +
       labs(x = '', y = 'Count', colour = 'Industry') +
       theme_bw()
-  } 
-  gp <- ggplotly(p, width = 800, height = 500, tooltip = FALSE)
+  }  
+  gp <- ggplotly(p, width = 800, height = 500, tooltip =FALSE)
   return(gp)
 }
 
+
+
 # Plot 3
 
-make_plot_3 <- function(industries = c('Agriculture', 'Construction'), year_desired = 2000, stat = "rate"){
+make_plot_3 <- function(industries = c("Agriculture", "Construction"), year_desired = 2000, stat = "rate"){
   avg_df <- unemply_df_month %>%
     group_by(month) %>%
     summarize(rate = mean(rate),
@@ -163,7 +165,7 @@ make_plot_3 <- function(industries = c('Agriculture', 'Construction'), year_desi
       labs(x = '', y = 'Count', colour = 'Industry', caption = "dashed line is the average") +
       theme_bw()
   }
-  gp <- ggplotly(p, width = 800, height = 500, tooltip = c("text"))
+  gp <- ggplotly(p, width = 800, height = 500, tooltip =FALSE) 
   return(gp)
 }
 
@@ -231,6 +233,8 @@ content2 <- htmlDiv(style = list('display' = 'flex'), list(
   ))
 ))
 
+
+
 content3 <- htmlDiv(style = list('display' = 'flex'), list(
   htmlDiv(style = list('columnCount' = 1, 'padding' = '25px', "width" = '60%'), list( 
     htmlIframe(height=5, width=10, style=list(borderWidth = 0)), #space
@@ -253,6 +257,7 @@ content3 <- htmlDiv(style = list('display' = 'flex'), list(
     dccMarkdown("[Data Source](https://observablehq.com/@randomfractals/vega-datasets)")
   ))
 ))
+
 
 # Title features
 

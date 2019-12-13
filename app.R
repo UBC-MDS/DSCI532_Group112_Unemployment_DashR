@@ -43,7 +43,7 @@ yearSlider <- dccSlider(
 )
 
 #Dropdown to select industries interested 
-all_industries <- unique(unemply_df_year$industry)
+
 industryDropdown <- dccDropdown(
   id = 'industry',
   options = map(
@@ -75,7 +75,7 @@ make_plot_1 <- function(year_range = c(2003, 2005), stat = "rate"){
     new_df <- new_df %>%
       mutate(colour = ifelse(rate < 0, "type1", "type2"))
     
-    p <- ggplot(new_df, aes(industry, rate, colour = colour)) + 
+    p <- ggplot(new_df, aes(industry, rate, colour = colour)) +
       geom_segment(aes(xend = industry, y = 0, yend = rate)) +
       geom_point(size = 2) + 
       coord_flip() + 
@@ -88,7 +88,7 @@ make_plot_1 <- function(year_range = c(2003, 2005), stat = "rate"){
     new_df <- new_df %>%
       mutate(colour = ifelse(count < 0, "type1", "type2"))
     
-    p <- ggplot(new_df, aes(industry, count, colour = colour)) + 
+    p <- ggplot(new_df, aes(industry, count, colour = colour)) +
       geom_segment(aes(xend = industry, y = 0, yend = count)) +
       geom_point(size = 2) + 
       coord_flip() +
@@ -110,6 +110,7 @@ make_plot_2 <- function(industries = c("Agriculture", "Construction"), stat = "r
   
   new_df <- unemply_df_year %>%
     filter(industry %in% industries)
+
   if(stat == "rate"){
     p <- ggplot() + 
       geom_line(new_df, mapping = aes(factor(year), rate, colour = industry, group = industry)) +
@@ -143,7 +144,6 @@ make_plot_3 <- function(industries = c("Agriculture", "Construction"), year_desi
   new_df <- unemply_df_month %>%
     filter(year == year_desired,
            industry %in% industries)
-
   if(stat == "rate"){
     p <- ggplot() + 
       geom_line(new_df, mapping = aes(factor(month), rate, colour = industry, group = industry)) +
@@ -291,9 +291,9 @@ There are 3 main questions we are interested in exploring:
 
 **Tab 1** ***Which industry has grown/shrunk the most?***
 
-**Tab 2** ***How does overall unemployment change in country X over the years?***
+**Tab 2** ***How does overall unemployment change in industries over the years?***
 
-**Tab 3** ***Is the unemployment rate across industries seasonal?***
+**Tab 3** ***Is the unemployment across industries seasonal?***
 
  Understanding unemployment trends could help us address economic challenges and determine which industries are facing job losses or gains.
  Explore these graphs yourselves!

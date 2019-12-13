@@ -43,7 +43,7 @@ yearSlider <- dccSlider(
 )
 
 #Dropdown to select industries interested 
-# all_industires <- unique(unemply_df_year$industry)
+
 industryDropdown <- dccDropdown(
   id = 'industry',
   options = map(
@@ -75,8 +75,7 @@ make_plot_1 <- function(year_range = c(2003, 2005), stat = "rate"){
     new_df <- new_df %>%
       mutate(colour = ifelse(rate < 0, "type1", "type2"))
     
-    p <- ggplot(new_df, aes(industry, rate, colour = colour, text = paste('Industry:', industry,
-                                                                          '\nRate:', rate))) +
+    p <- ggplot(new_df, aes(industry, rate, colour = colour) +
       geom_segment(aes(xend = industry, y = 0, yend = rate)) +
       geom_point(size = 2) + 
       coord_flip() + 
@@ -89,8 +88,7 @@ make_plot_1 <- function(year_range = c(2003, 2005), stat = "rate"){
     new_df <- new_df %>%
       mutate(colour = ifelse(count < 0, "type1", "type2"))
     
-    p <- ggplot(new_df, aes(industry, count, colour = colour, text = paste('Industry:', industry,
-                                                                           '\nCount:', count))) +
+    p <- ggplot(new_df, aes(industry, count, colour = colour) +
       geom_segment(aes(xend = industry, y = 0, yend = count)) +
       geom_point(size = 2) + 
       coord_flip() +
@@ -112,6 +110,7 @@ make_plot_2 <- function(industries = c("Agriculture", "Construction"), stat = "r
   
   new_df <- unemply_df_year %>%
     filter(industry %in% industries)
+
   if(stat == "rate"){
     p <- ggplot() + 
       geom_line(new_df, mapping = aes(factor(year), rate, colour = industry, group = industry)) +
@@ -153,7 +152,7 @@ make_plot_3 <- function(industries = c("Agriculture", "Construction"), year_desi
       scale_y_continuous(labels = percent_format(accuracy = 1L)) + 
       scale_x_discrete(breaks = seq_along(1:12), labels=c("Jan", "Feb", "Mar", "Apr", "May", "Jun", 
                                                           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")) +
-      labs(x = '', y = 'Rate', colour = 'Industry', caption = "dashed line is the average") +
+      labs(x = '', y = 'Rate', colour = 'Industry') +
       theme_bw()
   } else {
     p <- ggplot() + 
@@ -162,7 +161,7 @@ make_plot_3 <- function(industries = c("Agriculture", "Construction"), year_desi
       geom_line(avg_df, mapping = aes(month, count), alpha = 0.4, linetype = 'dashed') +
       scale_x_discrete(breaks = seq_along(1:12), labels=c("Jan", "Feb", "Mar", "Apr", "May", "Jun", 
                                                           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")) +
-      labs(x = '', y = 'Count', colour = 'Industry', caption = "dashed line is the average") +
+      labs(x = '', y = 'Count', colour = 'Industry') +
       theme_bw()
   }
   gp <- ggplotly(p, width = 800, height = 500, tooltip =FALSE) 
@@ -292,9 +291,9 @@ There are 3 main questions we are interested in exploring:
 
 **Tab 1** ***Which industry has grown/shrunk the most?***
 
-**Tab 2** ***How does overall unemployment change in country X over the years?***
+**Tab 2** ***How does overall unemployment change in industries over the years?***
 
-**Tab 3** ***Is the unemployment rate across industries seasonal?***
+**Tab 3** ***Is the unemployment across industries seasonal?***
 
  Understanding unemployment trends could help us address economic challenges and determine which industries are facing job losses or gains.
  Explore these graphs yourselves!

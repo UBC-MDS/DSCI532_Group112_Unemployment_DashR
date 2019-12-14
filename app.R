@@ -43,14 +43,14 @@ yearSlider <- dccSlider(
 )
 
 #Dropdown to select industries interested 
-all_industries <- unique(unemply_df_year$industry)
+
 industryDropdown <- dccDropdown(
   id = 'industry',
   options = map(
     unique(unemply_df_year$industry), function(x){
     list(label=x, value=x)
   }),
-  value = c("Agriculture", "Construction"), #Selects all by default
+  value = c("Agriculture", "Construction"), 
   multi = TRUE
 )
 
@@ -75,7 +75,7 @@ make_plot_1 <- function(year_range = c(2003, 2005), stat = "rate"){
     new_df <- new_df %>%
       mutate(colour = ifelse(rate < 0, "type1", "type2"))
     
-    p <- ggplot(new_df, aes(industry, rate, colour = colour)) + 
+    p <- ggplot(new_df, aes(industry, rate, colour = colour)) +
       geom_segment(aes(xend = industry, y = 0, yend = rate)) +
       geom_point(size = 2) + 
       coord_flip() + 
@@ -88,7 +88,7 @@ make_plot_1 <- function(year_range = c(2003, 2005), stat = "rate"){
     new_df <- new_df %>%
       mutate(colour = ifelse(count < 0, "type1", "type2"))
     
-    p <- ggplot(new_df, aes(industry, count, colour = colour)) + 
+    p <- ggplot(new_df, aes(industry, count, colour = colour)) +
       geom_segment(aes(xend = industry, y = 0, yend = count)) +
       geom_point(size = 2) + 
       coord_flip() +
@@ -96,8 +96,7 @@ make_plot_1 <- function(year_range = c(2003, 2005), stat = "rate"){
       theme_bw() + 
       theme(legend.position = "none") 
   }
-  gp <- ggplotly(p, width = 800, height = 500, tooltip = FALSE) %>%
-    config(displayModeBar = FALSE)
+  gp <- ggplotly(p, width = 800, height = 500, tooltip = FALSE) 
   return(gp)
 }
 
@@ -111,6 +110,7 @@ make_plot_2 <- function(industries = c("Agriculture", "Construction"), stat = "r
   
   new_df <- unemply_df_year %>%
     filter(industry %in% industries)
+
   if(stat == "rate"){
     p <- ggplot() + 
       geom_line(new_df, mapping = aes(factor(year), rate, colour = industry, group = industry)) +
@@ -127,8 +127,7 @@ make_plot_2 <- function(industries = c("Agriculture", "Construction"), stat = "r
       labs(x = '', y = 'Count', colour = 'Industry') +
       theme_bw()
   }  
-  gp <- ggplotly(p, width = 800, height = 500, tooltip =FALSE) %>%
-    config(displayModeBar = FALSE)
+  gp <- ggplotly(p, width = 800, height = 500, tooltip =FALSE)
   return(gp)
 }
 
@@ -145,7 +144,6 @@ make_plot_3 <- function(industries = c("Agriculture", "Construction"), year_desi
   new_df <- unemply_df_month %>%
     filter(year == year_desired,
            industry %in% industries)
-
   if(stat == "rate"){
     p <- ggplot() + 
       geom_line(new_df, mapping = aes(factor(month), rate, colour = industry, group = industry)) +
@@ -166,8 +164,7 @@ make_plot_3 <- function(industries = c("Agriculture", "Construction"), year_desi
       labs(x = '', y = 'Count', colour = 'Industry') +
       theme_bw()
   }
-  gp <- ggplotly(p, width = 800, height = 500, tooltip =FALSE) %>%
-    config(displayModeBar = FALSE)
+  gp <- ggplotly(p, width = 800, height = 500, tooltip =FALSE) 
   return(gp)
 }
 
@@ -235,6 +232,8 @@ content2 <- htmlDiv(style = list('display' = 'flex'), list(
   ))
 ))
 
+
+
 content3 <- htmlDiv(style = list('display' = 'flex'), list(
   htmlDiv(style = list('columnCount' = 1, 'padding' = '25px', "width" = '60%'), list( 
     htmlIframe(height=5, width=10, style=list(borderWidth = 0)), #space
@@ -258,38 +257,30 @@ content3 <- htmlDiv(style = list('display' = 'flex'), list(
   ))
 ))
 
+
 # Title features
 
 colors <- list(
   background = '#111111',
   text = '#7FDBFF',
-  lightyellow= '#fff98f'
+  lightblue= '#71adc9'
 )
 
 pageTitle <- htmlDiv(list(
-  htmlH1(
-  'Exploring Unemployment Across Industries',
+  htmlH1('Exploring Unemployment Across Industries'),
+  htmlH5('These graphs display a framework for countries to examine their unemployment rates/counts across industries.')),
   style = list(
     textAlign = 'center',
-    color = '#00008b',
+    color = '#0f1314',
     'font-family'= 'Optima',
     'font-style'= 'bold',
     "margin-left"= "5px",
     "margin-top"= "5px",
     "margin-bottom"="5px",
     'font-size'='40px',
-    padding =  15,
-    backgroundColor = colors$lightyellow
-  )), 
-  htmlH5(
-  'These graphs display a framework for countries to examine their unemployment rates/counts across industries.',
-  style = list(
-    textAlign = 'center',
-    color = '#00008b',
-    'font-family'= 'Courier',
-    backgroundColor = colors$lightyellow
-  )
-)))
+    padding =  25,
+    backgroundColor = colors$lightblue
+  ))
 
 
 markdown_text <- "
@@ -300,9 +291,9 @@ There are 3 main questions we are interested in exploring:
 
 **Tab 1** ***Which industry has grown/shrunk the most?***
 
-**Tab 2** ***How does overall unemployment change in country X over the years?***
+**Tab 2** ***How does overall unemployment change in industries over the years?***
 
-**Tab 3** ***Is the unemployment rate across industries seasonal?***
+**Tab 3** ***Is the unemployment across industries seasonal?***
 
  Understanding unemployment trends could help us address economic challenges and determine which industries are facing job losses or gains.
  Explore these graphs yourselves!
@@ -377,5 +368,4 @@ app$callback(
   })
 
 
-app$run_server()
-
+app$run_server(host = "0.0.0.0", port = Sys.getenv('PORT', 8050))
